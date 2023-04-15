@@ -10,7 +10,7 @@ import SwiftUI
 struct EspaniolView: View {
     let topicosHabla = [
         "Abecedario",
-        "Consonantes",
+        "Silabas",
         "Palabras"
     ]
     let topicosEscrit = [

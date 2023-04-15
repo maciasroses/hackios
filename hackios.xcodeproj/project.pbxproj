@@ -12,6 +12,8 @@
 		24BDEDD729EB18E500E6388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD629EB18E500E6388D /* Assets.xcassets */; };
 		24BDEDDA29EB18E500E6388D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */; };
 		24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE229EB4F4700E6388D /* ContentView.swift */; };
+		24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */; };
+		24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		24BDEDD629EB18E500E6388D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24BDEDE229EB4F4700E6388D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalabrasHablar.swift; sourceTree = "<group>"; };
+		24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabasHablar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				24BDEDD229EB18E300E6388D /* hackiosApp.swift */,
 				24BDEDE229EB4F4700E6388D /* ContentView.swift */,
 				24BDEDD429EB18E300E6388D /* EspaniolView.swift */,
+				24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */,
+				24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */,
 				24BDEDD629EB18E500E6388D /* Assets.xcassets */,
 				24BDEDD829EB18E500E6388D /* Preview Content */,
 			);
@@ -143,6 +149,8 @@
 				24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */,
 				24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */,
 				24BDEDD329EB18E300E6388D /* hackiosApp.swift in Sources */,
+				24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */,
+				24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
