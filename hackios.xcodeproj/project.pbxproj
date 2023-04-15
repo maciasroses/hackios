@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		24BDEDD329EB18E300E6388D /* hackiosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDD229EB18E300E6388D /* hackiosApp.swift */; };
-		24BDEDD529EB18E300E6388D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDD429EB18E300E6388D /* ContentView.swift */; };
+		24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDD429EB18E300E6388D /* EspaniolView.swift */; };
 		24BDEDD729EB18E500E6388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD629EB18E500E6388D /* Assets.xcassets */; };
 		24BDEDDA29EB18E500E6388D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */; };
-		24BDEDE129EB28B600E6388D /* Ejemplo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE029EB28B600E6388D /* Ejemplo.swift */; };
+		24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE229EB4F4700E6388D /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24BDEDCF29EB18E300E6388D /* hackios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BDEDD229EB18E300E6388D /* hackiosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackiosApp.swift; sourceTree = "<group>"; };
-		24BDEDD429EB18E300E6388D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24BDEDD429EB18E300E6388D /* EspaniolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspaniolView.swift; sourceTree = "<group>"; };
 		24BDEDD629EB18E500E6388D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		24BDEDE029EB28B600E6388D /* Ejemplo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejemplo.swift; sourceTree = "<group>"; };
+		24BDEDE229EB4F4700E6388D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				24BDEDD229EB18E300E6388D /* hackiosApp.swift */,
-				24BDEDD429EB18E300E6388D /* ContentView.swift */,
+				24BDEDE229EB4F4700E6388D /* ContentView.swift */,
+				24BDEDD429EB18E300E6388D /* EspaniolView.swift */,
 				24BDEDD629EB18E500E6388D /* Assets.xcassets */,
 				24BDEDD829EB18E500E6388D /* Preview Content */,
-				24BDEDE029EB28B600E6388D /* Ejemplo.swift */,
 			);
 			path = hackios;
 			sourceTree = "<group>";
@@ -140,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24BDEDE129EB28B600E6388D /* Ejemplo.swift in Sources */,
-				24BDEDD529EB18E300E6388D /* ContentView.swift in Sources */,
+				24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */,
+				24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */,
 				24BDEDD329EB18E300E6388D /* hackiosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
