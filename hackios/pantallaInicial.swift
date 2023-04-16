@@ -22,7 +22,7 @@ struct pantallaInicial: View {
                             .padding(.trailing, 24)
                     }
                 }
-                Text("Intelia")
+                Text("Intelia") 
                     .font(.system(size: 92, weight: .bold))
                     .padding(.top, 90)
                 Text("Selecciona alguno de los botones para aprender más sobre ellos.")
