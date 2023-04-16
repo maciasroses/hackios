@@ -22,6 +22,7 @@ struct SilabasHablar: View {
         "🍇",
         "🎼"
     ]
+    
     let silabejemtext = [
         "mano",
         "melón",
