@@ -11,7 +11,7 @@
 		24BDEDD529EB18E300E6388D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDD429EB18E300E6388D /* ContentView.swift */; };
 		24BDEDD729EB18E500E6388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD629EB18E500E6388D /* Assets.xcassets */; };
 		24BDEDDA29EB18E500E6388D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */; };
-		3A02DA8F29EB2887002626FB /* FazView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA8E29EB2887002626FB /* FazView.swift */; };
+		3A02DA8F29EB2887002626FB /* AbecedarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA8E29EB2887002626FB /* AbecedarioView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		24BDEDD429EB18E300E6388D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24BDEDD629EB18E500E6388D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3A02DA8E29EB2887002626FB /* FazView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FazView.swift; sourceTree = "<group>"; };
+		3A02DA8E29EB2887002626FB /* AbecedarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbecedarioView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				24BDEDD229EB18E300E6388D /* hackiosApp.swift */,
-				3A02DA8E29EB2887002626FB /* FazView.swift */,
+				3A02DA8E29EB2887002626FB /* AbecedarioView.swift */,
 				24BDEDD429EB18E300E6388D /* ContentView.swift */,
 				24BDEDD629EB18E500E6388D /* Assets.xcassets */,
 				24BDEDD829EB18E500E6388D /* Preview Content */,
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24BDEDD529EB18E300E6388D /* ContentView.swift in Sources */,
-				3A02DA8F29EB2887002626FB /* FazView.swift in Sources */,
+				3A02DA8F29EB2887002626FB /* AbecedarioView.swift in Sources */,
 				24BDEDD329EB18E300E6388D /* hackiosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
