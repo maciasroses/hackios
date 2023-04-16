@@ -31,7 +31,7 @@ struct ContentView: View {
                     .padding(.bottom, 120)
                 HStack{
                     NavigationLink{
-                        //EspaniolView()
+                        EspaniolView()
                     } label: {
                         Text("Español 📓")
                             .font(.system(size: 32, weight: .semibold))
