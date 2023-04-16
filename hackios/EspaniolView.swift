@@ -18,6 +18,10 @@ struct EspaniolView: View {
         "Números",
         "Palabras"
     ]
+    let asdas = [
+        PalabrasHablar(),
+        SilabasHablar(),
+    ] as [Any]
     var body: some View {
         VStack{
             HStack {
