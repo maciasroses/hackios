@@ -14,7 +14,11 @@
 		24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE229EB4F4700E6388D /* ContentView.swift */; };
 		24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */; };
 		24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */; };
+<<<<<<< Updated upstream
 		FBB4FD0229EB8E7D0075B279 /* LetterWrittingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4FD0129EB8E7D0075B279 /* LetterWrittingView.swift */; };
+=======
+		FBB2B21C29EC8F8B007E92C7 /* AprendeSumas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2B21B29EC8F8B007E92C7 /* AprendeSumas.swift */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +30,12 @@
 		24BDEDE229EB4F4700E6388D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalabrasHablar.swift; sourceTree = "<group>"; };
 		24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabasHablar.swift; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		FB9E57C029EBCF70006913BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FBB4FD0129EB8E7D0075B279 /* LetterWrittingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterWrittingView.swift; sourceTree = "<group>"; };
+=======
+		FBB2B21B29EC8F8B007E92C7 /* AprendeSumas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeSumas.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,12 @@
 		24BDEDD129EB18E300E6388D /* hackios */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				FB9E57C029EBCF70006913BB /* Info.plist */,
 				FBB4FD0129EB8E7D0075B279 /* LetterWrittingView.swift */,
+=======
+				FBB2B21B29EC8F8B007E92C7 /* AprendeSumas.swift */,
+>>>>>>> Stashed changes
 				24BDEDD229EB18E300E6388D /* hackiosApp.swift */,
 				24BDEDE229EB4F4700E6388D /* ContentView.swift */,
 				24BDEDD429EB18E300E6388D /* EspaniolView.swift */,
@@ -157,6 +169,7 @@
 				24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */,
 				FBB4FD0229EB8E7D0075B279 /* LetterWrittingView.swift in Sources */,
 				24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */,
+				FBB2B21C29EC8F8B007E92C7 /* AprendeSumas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
