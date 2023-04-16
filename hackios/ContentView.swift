@@ -12,7 +12,8 @@ struct ContentView: View {
         NavigationStack{
             VStack{
                 NavigationLink{
-                    SilabasHablar()
+                    //SilabasHablar()
+                    AprendeSumarView()
                 } label: {
                     Text("Arroz")
                 }
