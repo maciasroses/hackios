@@ -71,6 +71,18 @@ struct ContentView: View {
                     }
                     Spacer()
                 }
+                NavigationLink{
+                    //SilabasHablar()
+                    AprendeRestarView()
+                } label: {
+                    Text("Epazote")
+                }
+                NavigationLink{
+                    //SilabasHablar()
+                    AprendeMultView()
+                } label: {
+                    Text("Zapato")
+                }
             }
         }
     }
