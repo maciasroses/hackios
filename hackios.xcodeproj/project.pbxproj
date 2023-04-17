@@ -14,6 +14,9 @@
 		24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE229EB4F4700E6388D /* ContentView.swift */; };
 		24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */; };
 		24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */; };
+		FBA56C3129ECCAAA0035B5AB /* AprendeRestarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA56C3029ECCAAA0035B5AB /* AprendeRestarView.swift */; };
+		FBA56C3329ECCE300035B5AB /* AprendeMultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA56C3229ECCE300035B5AB /* AprendeMultView.swift */; };
+		FBA56C3529ECDD910035B5AB /* MultEjercicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA56C3429ECDD910035B5AB /* MultEjercicio.swift */; };
 		FBB2B21E29EC9346007E92C7 /* AprendeSumarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2B21D29EC9346007E92C7 /* AprendeSumarView.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,9 @@
 		24BDEDE229EB4F4700E6388D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalabrasHablar.swift; sourceTree = "<group>"; };
 		24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabasHablar.swift; sourceTree = "<group>"; };
+		FBA56C3029ECCAAA0035B5AB /* AprendeRestarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeRestarView.swift; sourceTree = "<group>"; };
+		FBA56C3229ECCE300035B5AB /* AprendeMultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeMultView.swift; sourceTree = "<group>"; };
+		FBA56C3429ECDD910035B5AB /* MultEjercicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultEjercicio.swift; sourceTree = "<group>"; };
 		FBB2B21D29EC9346007E92C7 /* AprendeSumarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeSumarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +65,9 @@
 		24BDEDD129EB18E300E6388D /* hackios */ = {
 			isa = PBXGroup;
 			children = (
+				FBA56C3429ECDD910035B5AB /* MultEjercicio.swift */,
+				FBA56C3229ECCE300035B5AB /* AprendeMultView.swift */,
+				FBA56C3029ECCAAA0035B5AB /* AprendeRestarView.swift */,
 				FBB2B21D29EC9346007E92C7 /* AprendeSumarView.swift */,
 				24BDEDD229EB18E300E6388D /* hackiosApp.swift */,
 				24BDEDE229EB4F4700E6388D /* ContentView.swift */,
@@ -149,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA56C3529ECDD910035B5AB /* MultEjercicio.swift in Sources */,
+				FBA56C3129ECCAAA0035B5AB /* AprendeRestarView.swift in Sources */,
 				24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */,
 				24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */,
 				24BDEDD329EB18E300E6388D /* hackiosApp.swift in Sources */,
+				FBA56C3329ECCE300035B5AB /* AprendeMultView.swift in Sources */,
 				24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */,
 				24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */,
 				FBB2B21E29EC9346007E92C7 /* AprendeSumarView.swift in Sources */,

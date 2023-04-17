@@ -1,5 +1,5 @@
 //
-//  AprendeSumarView.swift
+//  AprendeRestarView.swift
 //  hackios
 //
 //  Created by Alumno on 16/04/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AprendeSumarView: View {
+struct AprendeRestarView: View {
     @State var firstView = false
     @State var secondView = false
     @State var thirdView = false
@@ -17,7 +17,7 @@ struct AprendeSumarView: View {
     @State var thirdButtonClicked = false
     var body: some View {
         VStack{
-            Text("Sumar ➕")
+            Text("Restar ➖")
                 .font(.system(size: 70, weight: .bold))
                 .padding(.bottom)
                 .onAppear{
@@ -28,7 +28,7 @@ struct AprendeSumarView: View {
                     }
                 }
             if firstView {
-                Text("Es una operacion aritmética que consiste en juntar varias cantidades en una sola")
+                Text("Realizar una operación aritmética que consiste en quitar una cantidad de otra para saber la diferencia entre las dos.")
                     .font(.system(size: 32))
                     .foregroundColor(.black)
                     .opacity(0.8)
@@ -46,16 +46,16 @@ struct AprendeSumarView: View {
                 HStack(alignment: .center){
                     VStack{
                         
-                        Text("🍊🍊")
+                        Text("🎈🎈🎈")
                             .font(.system(size: 64))
-                        Text("2")
+                        Text("3")
                             .font(.system(size: 36))
                     }
-                    Text("➕")
+                    Text("➖")
                         .font(.system(size: 36))
                     VStack{
                         
-                        Text("🍊🍊")
+                        Text("🎈🎈")
                             .font(.system(size: 64))
                         Text("2")
                             .font(.system(size: 36))
@@ -64,9 +64,9 @@ struct AprendeSumarView: View {
                         .font(.system(size: 36))
                     VStack{
                         
-                        Text("🍊🍊🍊🍊")
+                        Text("🎈")
                             .font(.system(size: 64))
-                        Text("4")
+                        Text("1")
                             .font(.system(size: 36))
                     }
                 }
@@ -80,7 +80,7 @@ struct AprendeSumarView: View {
                 }
             }
             if thirdView {
-                Text("Ahora haz un ejercicio tu mismo:")
+                Text("Ahora has un ejercicio tú mismo:")
                     .font(.system(size: 32))
                     .opacity(0.8)
                     .foregroundColor(.black)
@@ -88,16 +88,16 @@ struct AprendeSumarView: View {
                 HStack(alignment: .center){
                     VStack{
                         
-                        Text("🍊")
+                        Text("🎈🎈🎈🎈🎈")
                             .font(.system(size: 64))
-                        Text("1")
+                        Text("5")
                             .font(.system(size: 36))
                     }
-                    Text("➕")
+                    Text("➖")
                         .font(.system(size: 36))
                     VStack{
                         
-                        Text("🍊🍊")
+                        Text("🎈🎈")
                             .font(.system(size: 64))
                         Text("2")
                             .font(.system(size: 36))
@@ -106,7 +106,7 @@ struct AprendeSumarView: View {
                         .font(.system(size: 36))
                     VStack{
                         
-                        Text("🍊🍊🍊")
+                        Text("🎈🎈🎈")
                             .font(.system(size: 64))
                         Text("?")
                             .font(.system(size: 36))
@@ -114,36 +114,36 @@ struct AprendeSumarView: View {
                 }
                 HStack{
                     Button {
-                        firstButtonClicked = true
+                        secondButtonClicked = true
                     } label: {
-                        Text("2\n🍊🍊")
-                            .font(.system(size: 32, weight: .semibold))
+                        Text("3\n🎈🎈🎈")
+                            .font(.system(size: 32))
                             .foregroundColor(.white)
-                            .frame(width: 180, height: 100)
-                            .background( firstButtonClicked ? .red : .teal)
+                            .frame(width: 200, height: 100)
+                            .background(secondButtonClicked ? .green : .teal)
                             .cornerRadius(10)
-                            
                     }
                     
                     Button {
-                        secondButtonClicked = true
+                        firstButtonClicked = true
                     } label: {
-                        Text("3\n🍊🍊🍊")
-                            .font(.system(size: 32))
+                        Text("1\n🎈")
+                            .font(.system(size: 32, weight: .semibold))
                             .foregroundColor(.white)
-                            .frame(width: 180, height: 100)
-                            .background(secondButtonClicked ? .green : .teal)
+                            .frame(width: 200, height: 100)
+                            .background( firstButtonClicked ? .red : .teal)
                             .cornerRadius(10)
                             .padding(.horizontal, 50)
+                            
                     }
                     
                     Button {
                         thirdButtonClicked = true
                     } label: {
-                        Text("4\n🍊🍊🍊🍊")
+                        Text("5\n🎈🎈🎈🎈🎈")
                             .font(.system(size: 32))
                             .foregroundColor(.white)
-                            .frame(width: 180, height: 100)
+                            .frame(width: 200, height: 100)
                             .background(thirdButtonClicked ? .red : .teal)
                             .cornerRadius(10)
                     }
@@ -154,8 +154,8 @@ struct AprendeSumarView: View {
     }
 }
 
-struct AprendeSumarView_Previews: PreviewProvider {
+struct AprendeRestarView_Previews: PreviewProvider {
     static var previews: some View {
-        AprendeSumarView()
+        AprendeRestarView()
     }
 }

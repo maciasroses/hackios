@@ -17,6 +17,18 @@ struct ContentView: View {
                 } label: {
                     Text("Arroz")
                 }
+                NavigationLink{
+                    //SilabasHablar()
+                    AprendeRestarView()
+                } label: {
+                    Text("Epazote")
+                }
+                NavigationLink{
+                    //SilabasHablar()
+                    AprendeMultView()
+                } label: {
+                    Text("Zapato")
+                }
             }
         }
     }
