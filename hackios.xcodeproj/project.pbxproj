@@ -13,6 +13,11 @@
 		2424F67F29EDE460007CF9F6 /* PrismasAR.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2424F67E29EDE460007CF9F6 /* PrismasAR.rcproject */; };
 		2424F68129EDE464007CF9F6 /* Numeros.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2424F68029EDE464007CF9F6 /* Numeros.rcproject */; };
 		2424F68329EDE468007CF9F6 /* FigurasGeometricas.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2424F68229EDE468007CF9F6 /* FigurasGeometricas.rcproject */; };
+		2424F68529EDE7F5007CF9F6 /* PalabrasHablarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F68429EDE7F5007CF9F6 /* PalabrasHablarView.swift */; };
+		2424F68729EDE7FC007CF9F6 /* OperacionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F68629EDE7FC007CF9F6 /* OperacionesView.swift */; };
+		2424F68929EDE802007CF9F6 /* NumerosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F68829EDE802007CF9F6 /* NumerosView.swift */; };
+		2424F68B29EDE808007CF9F6 /* PrismasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F68A29EDE808007CF9F6 /* PrismasView.swift */; };
+		2424F68D29EDE820007CF9F6 /* FigurasGeometricasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F68C29EDE820007CF9F6 /* FigurasGeometricasView.swift */; };
 		24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDD429EB18E300E6388D /* EspaniolView.swift */; };
 		24BDEDD729EB18E500E6388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD629EB18E500E6388D /* Assets.xcassets */; };
 		24BDEDDA29EB18E500E6388D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */; };
@@ -35,6 +40,11 @@
 		2424F67E29EDE460007CF9F6 /* PrismasAR.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PrismasAR.rcproject; sourceTree = "<group>"; };
 		2424F68029EDE464007CF9F6 /* Numeros.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Numeros.rcproject; sourceTree = "<group>"; };
 		2424F68229EDE468007CF9F6 /* FigurasGeometricas.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = FigurasGeometricas.rcproject; sourceTree = "<group>"; };
+		2424F68429EDE7F5007CF9F6 /* PalabrasHablarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalabrasHablarView.swift; sourceTree = "<group>"; };
+		2424F68629EDE7FC007CF9F6 /* OperacionesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperacionesView.swift; sourceTree = "<group>"; };
+		2424F68829EDE802007CF9F6 /* NumerosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumerosView.swift; sourceTree = "<group>"; };
+		2424F68A29EDE808007CF9F6 /* PrismasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrismasView.swift; sourceTree = "<group>"; };
+		2424F68C29EDE820007CF9F6 /* FigurasGeometricasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FigurasGeometricasView.swift; sourceTree = "<group>"; };
 		24BDEDCF29EB18E300E6388D /* hackios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BDEDD429EB18E300E6388D /* EspaniolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspaniolView.swift; sourceTree = "<group>"; };
 		24BDEDD629EB18E500E6388D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +92,11 @@
 		24BDEDD129EB18E300E6388D /* hackios */ = {
 			isa = PBXGroup;
 			children = (
+				2424F68C29EDE820007CF9F6 /* FigurasGeometricasView.swift */,
+				2424F68A29EDE808007CF9F6 /* PrismasView.swift */,
+				2424F68829EDE802007CF9F6 /* NumerosView.swift */,
+				2424F68629EDE7FC007CF9F6 /* OperacionesView.swift */,
+				2424F68429EDE7F5007CF9F6 /* PalabrasHablarView.swift */,
 				2424F68229EDE468007CF9F6 /* FigurasGeometricas.rcproject */,
 				2424F68029EDE464007CF9F6 /* Numeros.rcproject */,
 				2424F67E29EDE460007CF9F6 /* PrismasAR.rcproject */,
@@ -184,12 +199,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2424F68929EDE802007CF9F6 /* NumerosView.swift in Sources */,
 				2424F67929EDE449007CF9F6 /* MatematicasView.swift in Sources */,
 				FBA56C3529ECDD910035B5AB /* MultEjercicio.swift in Sources */,
 				2424F67B29EDE452007CF9F6 /* LetrasZenView.swift in Sources */,
 				FBA56C3129ECCAAA0035B5AB /* AprendeRestarView.swift in Sources */,
+				2424F68729EDE7FC007CF9F6 /* OperacionesView.swift in Sources */,
+				2424F68D29EDE820007CF9F6 /* FigurasGeometricasView.swift in Sources */,
 				2424F68129EDE464007CF9F6 /* Numeros.rcproject in Sources */,
+				2424F68B29EDE808007CF9F6 /* PrismasView.swift in Sources */,
 				3A02DA8F29EB2887002626FB /* AbecedarioView.swift in Sources */,
+				2424F68529EDE7F5007CF9F6 /* PalabrasHablarView.swift in Sources */,
 				24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */,
 				24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */,
 				3A02DA9129EB9301002626FB /* AudioHelperView.swift in Sources */,
