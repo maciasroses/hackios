@@ -33,7 +33,8 @@ struct ContentView: View {
                             .padding(.horizontal, 90)
                             .padding(.vertical, 26)
                             .background(RoundedRectangle(cornerRadius: 20)
-                                .fill(.blue)
+                                .fill(.teal
+                                     )
                                 .shadow(radius: 4))
                     }
                     .padding(.trailing, 75)
@@ -47,7 +48,7 @@ struct ContentView: View {
                             .padding(.horizontal, 70)
                             .padding(.vertical, 26)
                             .background(RoundedRectangle(cornerRadius: 20)
-                                .fill(.blue)
+                                .fill(.teal)
                                 .shadow(radius: 4))
                     }
                 }
