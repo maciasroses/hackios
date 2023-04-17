@@ -34,6 +34,7 @@
 		FBA56C3029ECCAAA0035B5AB /* AprendeRestarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeRestarView.swift; sourceTree = "<group>"; };
 		FBA56C3229ECCE300035B5AB /* AprendeMultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeMultView.swift; sourceTree = "<group>"; };
 		FBA56C3429ECDD910035B5AB /* MultEjercicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultEjercicio.swift; sourceTree = "<group>"; };
+		FBA56C3829ECEFB70035B5AB /* OperacionesAR.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = OperacionesAR.rcproject; sourceTree = "<group>"; };
 		FBB2B21D29EC9346007E92C7 /* AprendeSumarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeSumarView.swift; sourceTree = "<group>"; };
 		FBB4FD0129EB8E7D0075B279 /* LetterWrittingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterWrittingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +69,7 @@
 		24BDEDD129EB18E300E6388D /* hackios */ = {
 			isa = PBXGroup;
 			children = (
+				FBA56C3829ECEFB70035B5AB /* OperacionesAR.rcproject */,
 				FBA56C3429ECDD910035B5AB /* MultEjercicio.swift */,
 				FBA56C3229ECCE300035B5AB /* AprendeMultView.swift */,
 				FBA56C3029ECCAAA0035B5AB /* AprendeRestarView.swift */,
