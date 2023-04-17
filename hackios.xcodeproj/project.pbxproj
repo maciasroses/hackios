@@ -14,14 +14,14 @@
 		24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE229EB4F4700E6388D /* ContentView.swift */; };
 		24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */; };
 		24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */; };
-		FBA56C3129ECCAAA0035B5AB /* AprendeRestarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA56C3029ECCAAA0035B5AB /* AprendeRestarView.swift */; };
-		FBA56C3329ECCE300035B5AB /* AprendeMultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA56C3229ECCE300035B5AB /* AprendeMultView.swift */; };
-		FBA56C3529ECDD910035B5AB /* MultEjercicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA56C3429ECDD910035B5AB /* MultEjercicio.swift */; };
-		FBB2B21E29EC9346007E92C7 /* AprendeSumarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2B21D29EC9346007E92C7 /* AprendeSumarView.swift */; };
 		3A02DA8F29EB2887002626FB /* AbecedarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA8E29EB2887002626FB /* AbecedarioView.swift */; };
 		3A02DA9129EB9301002626FB /* AudioHelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9029EB9301002626FB /* AudioHelperView.swift */; };
 		3A02DA9329EB9E4C002626FB /* SilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9229EB9E4C002626FB /* SilabasView.swift */; };
 		3A02DA9629ECCCB7002626FB /* EjercicioSilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */; };
+		FBA56C3129ECCAAA0035B5AB /* AprendeRestarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA56C3029ECCAAA0035B5AB /* AprendeRestarView.swift */; };
+		FBA56C3329ECCE300035B5AB /* AprendeMultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA56C3229ECCE300035B5AB /* AprendeMultView.swift */; };
+		FBA56C3529ECDD910035B5AB /* MultEjercicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA56C3429ECDD910035B5AB /* MultEjercicio.swift */; };
+		FBB2B21E29EC9346007E92C7 /* AprendeSumarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB2B21D29EC9346007E92C7 /* AprendeSumarView.swift */; };
 		FBB4FD0229EB8E7D0075B279 /* LetterWrittingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4FD0129EB8E7D0075B279 /* LetterWrittingView.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,6 @@
 		3A02DA8E29EB2887002626FB /* AbecedarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbecedarioView.swift; sourceTree = "<group>"; };
 		3A02DA9029EB9301002626FB /* AudioHelperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHelperView.swift; sourceTree = "<group>"; };
 		3A02DA9229EB9E4C002626FB /* SilabasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabasView.swift; sourceTree = "<group>"; };
-		3A02DA9429EC579A002626FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioSilabasView.swift; sourceTree = "<group>"; };
 		FB9E57C029EBCF70006913BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FBA56C3029ECCAAA0035B5AB /* AprendeRestarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeRestarView.swift; sourceTree = "<group>"; };
@@ -320,7 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hackios/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9S675N4Z9W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hackios/Info.plist;
@@ -338,7 +337,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macias.Intelia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,7 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hackios/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9S675N4Z9W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hackios/Info.plist;
@@ -372,7 +371,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macias.Intelia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
