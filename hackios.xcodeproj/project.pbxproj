@@ -11,10 +11,13 @@
 		24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDD429EB18E300E6388D /* EspaniolView.swift */; };
 		24BDEDD729EB18E500E6388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD629EB18E500E6388D /* Assets.xcassets */; };
 		24BDEDDA29EB18E500E6388D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */; };
-		3A02DA8F29EB2887002626FB /* AbecedarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA8E29EB2887002626FB /* AbecedarioView.swift */; };
 		24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE229EB4F4700E6388D /* ContentView.swift */; };
 		24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */; };
 		24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */; };
+		3A02DA8F29EB2887002626FB /* AbecedarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA8E29EB2887002626FB /* AbecedarioView.swift */; };
+		3A02DA9129EB9301002626FB /* AudioHelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9029EB9301002626FB /* AudioHelperView.swift */; };
+		3A02DA9329EB9E4C002626FB /* SilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9229EB9E4C002626FB /* SilabasView.swift */; };
+		3A02DA9629ECCCB7002626FB /* EjercicioSilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,10 +26,14 @@
 		24BDEDD429EB18E300E6388D /* EspaniolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspaniolView.swift; sourceTree = "<group>"; };
 		24BDEDD629EB18E500E6388D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3A02DA8E29EB2887002626FB /* AbecedarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbecedarioView.swift; sourceTree = "<group>"; };
 		24BDEDE229EB4F4700E6388D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalabrasHablar.swift; sourceTree = "<group>"; };
 		24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabasHablar.swift; sourceTree = "<group>"; };
+		3A02DA8E29EB2887002626FB /* AbecedarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbecedarioView.swift; sourceTree = "<group>"; };
+		3A02DA9029EB9301002626FB /* AudioHelperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHelperView.swift; sourceTree = "<group>"; };
+		3A02DA9229EB9E4C002626FB /* SilabasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabasView.swift; sourceTree = "<group>"; };
+		3A02DA9429EC579A002626FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioSilabasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +66,16 @@
 		24BDEDD129EB18E300E6388D /* hackios */ = {
 			isa = PBXGroup;
 			children = (
+				3A02DA9429EC579A002626FB /* Info.plist */,
 				24BDEDD229EB18E300E6388D /* hackiosApp.swift */,
 				3A02DA8E29EB2887002626FB /* AbecedarioView.swift */,
 				24BDEDE229EB4F4700E6388D /* ContentView.swift */,
 				24BDEDD429EB18E300E6388D /* EspaniolView.swift */,
 				24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */,
+				3A02DA9029EB9301002626FB /* AudioHelperView.swift */,
 				24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */,
+				3A02DA9229EB9E4C002626FB /* SilabasView.swift */,
+				3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */,
 				24BDEDD629EB18E500E6388D /* Assets.xcassets */,
 				24BDEDD829EB18E500E6388D /* Preview Content */,
 			);
@@ -152,8 +163,11 @@
 				3A02DA8F29EB2887002626FB /* AbecedarioView.swift in Sources */,
 				24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */,
 				24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */,
+				3A02DA9129EB9301002626FB /* AudioHelperView.swift in Sources */,
+				3A02DA9629ECCCB7002626FB /* EjercicioSilabasView.swift in Sources */,
 				24BDEDD329EB18E300E6388D /* hackiosApp.swift in Sources */,
 				24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */,
+				3A02DA9329EB9E4C002626FB /* SilabasView.swift in Sources */,
 				24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,8 +297,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hackios/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hackios/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,8 +329,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hackios/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hackios/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
