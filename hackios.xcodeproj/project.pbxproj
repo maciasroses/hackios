@@ -18,6 +18,8 @@
 		3A02DA9129EB9301002626FB /* AudioHelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9029EB9301002626FB /* AudioHelperView.swift */; };
 		3A02DA9329EB9E4C002626FB /* SilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9229EB9E4C002626FB /* SilabasView.swift */; };
 		3A02DA9629ECCCB7002626FB /* EjercicioSilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */; };
+		3A02DA9829EDACE3002626FB /* EscribirLetraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9729EDACE3002626FB /* EscribirLetraView.swift */; };
+		3A02DA9A29EDCFAA002626FB /* LetrasZenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9929EDCFAA002626FB /* LetrasZenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		3A02DA9229EB9E4C002626FB /* SilabasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabasView.swift; sourceTree = "<group>"; };
 		3A02DA9429EC579A002626FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioSilabasView.swift; sourceTree = "<group>"; };
+		3A02DA9729EDACE3002626FB /* EscribirLetraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscribirLetraView.swift; sourceTree = "<group>"; };
+		3A02DA9929EDCFAA002626FB /* LetrasZenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetrasZenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +77,13 @@
 				24BDEDD429EB18E300E6388D /* EspaniolView.swift */,
 				24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */,
 				3A02DA9029EB9301002626FB /* AudioHelperView.swift */,
+				3A02DA9729EDACE3002626FB /* EscribirLetraView.swift */,
 				24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */,
 				3A02DA9229EB9E4C002626FB /* SilabasView.swift */,
 				3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */,
 				24BDEDD629EB18E500E6388D /* Assets.xcassets */,
 				24BDEDD829EB18E500E6388D /* Preview Content */,
+				3A02DA9929EDCFAA002626FB /* LetrasZenView.swift */,
 			);
 			path = hackios;
 			sourceTree = "<group>";
@@ -166,8 +172,10 @@
 				3A02DA9129EB9301002626FB /* AudioHelperView.swift in Sources */,
 				3A02DA9629ECCCB7002626FB /* EjercicioSilabasView.swift in Sources */,
 				24BDEDD329EB18E300E6388D /* hackiosApp.swift in Sources */,
+				3A02DA9829EDACE3002626FB /* EscribirLetraView.swift in Sources */,
 				24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */,
 				3A02DA9329EB9E4C002626FB /* SilabasView.swift in Sources */,
+				3A02DA9A29EDCFAA002626FB /* LetrasZenView.swift in Sources */,
 				24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hackios/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2TX9W9SS3U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hackios/Info.plist;
@@ -313,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackios1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -329,7 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hackios/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2TX9W9SS3U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hackios/Info.plist;
@@ -345,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackios1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

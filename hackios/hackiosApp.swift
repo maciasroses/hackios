@@ -11,7 +11,7 @@ import SwiftUI
 struct hackiosApp: App {
     var body: some Scene {
         WindowGroup {
-            SilabasView()
+            EscribirLetraView()
         }
     }
 }
