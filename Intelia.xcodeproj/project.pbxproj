@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2409025529EDAF620027F4FB /* SilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409024B29EDAF620027F4FB /* SilabasView.swift */; };
+		2409025729EDAF620027F4FB /* OperacionesAR.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2409024D29EDAF620027F4FB /* OperacionesAR.rcproject */; };
+		2409025829EDAF620027F4FB /* AudioHelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409024E29EDAF620027F4FB /* AudioHelperView.swift */; };
+		2409025929EDAF620027F4FB /* LetterWrittingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409024F29EDAF620027F4FB /* LetterWrittingView.swift */; };
+		2409025A29EDAF620027F4FB /* AprendeSumarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409025029EDAF620027F4FB /* AprendeSumarView.swift */; };
+		2409025B29EDAF620027F4FB /* MultEjercicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409025129EDAF620027F4FB /* MultEjercicio.swift */; };
+		2409025C29EDAF620027F4FB /* EjercicioSilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409025229EDAF620027F4FB /* EjercicioSilabasView.swift */; };
+		2409025D29EDAF620027F4FB /* AprendeRestarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409025329EDAF620027F4FB /* AprendeRestarView.swift */; };
+		2409025E29EDAF620027F4FB /* AprendeMultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409025429EDAF620027F4FB /* AprendeMultView.swift */; };
+		2409026029EDB03E0027F4FB /* OperacionesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409025F29EDB03E0027F4FB /* OperacionesView.swift */; };
+		2409026229EDB1820027F4FB /* PalabrasHablarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409026129EDB1820027F4FB /* PalabrasHablarView.swift */; };
+		2424F66D29EDCD70007CF9F6 /* FigurasGeometricas.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2424F66C29EDCD70007CF9F6 /* FigurasGeometricas.rcproject */; };
+		2424F66F29EDCD7B007CF9F6 /* PrismasAR.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2424F66E29EDCD7B007CF9F6 /* PrismasAR.rcproject */; };
+		2424F67129EDCDC8007CF9F6 /* FigurasGeometricasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F67029EDCDC8007CF9F6 /* FigurasGeometricasView.swift */; };
+		2424F67329EDCE28007CF9F6 /* PrismasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F67229EDCE28007CF9F6 /* PrismasView.swift */; };
+		2424F67529EDE0BC007CF9F6 /* LetrasZenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F67429EDE0BC007CF9F6 /* LetrasZenView.swift */; };
+		2424F67729EDE0C4007CF9F6 /* EscribirLetraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F67629EDE0C4007CF9F6 /* EscribirLetraView.swift */; };
+		2448955B29ECDBF000F084F9 /* AbecedarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2448955A29ECDBF000F084F9 /* AbecedarioView.swift */; };
+		2448955D29ECDC1A00F084F9 /* EspaniolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2448955C29ECDC1A00F084F9 /* EspaniolView.swift */; };
+		2448955F29ECDC3500F084F9 /* MatematicasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2448955E29ECDC3500F084F9 /* MatematicasView.swift */; };
+		24CCDF6E29ECBB810018406E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CCDF6D29ECBB810018406E /* AppDelegate.swift */; };
+		24CCDF7029ECBB810018406E /* NumerosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CCDF6F29ECBB810018406E /* NumerosView.swift */; };
+		24CCDF7229ECBB810018406E /* Numeros.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 24CCDF7129ECBB810018406E /* Numeros.rcproject */; };
+		24CCDF7429ECBB820018406E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CCDF7329ECBB820018406E /* Assets.xcassets */; };
+		24CCDF7729ECBB820018406E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CCDF7629ECBB820018406E /* Preview Assets.xcassets */; };
+		24CCDF8129ECC7710018406E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CCDF8029ECC7710018406E /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2409024B29EDAF620027F4FB /* SilabasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilabasView.swift; sourceTree = "<group>"; };
+		2409024D29EDAF620027F4FB /* OperacionesAR.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = OperacionesAR.rcproject; sourceTree = "<group>"; };
+		2409024E29EDAF620027F4FB /* AudioHelperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioHelperView.swift; sourceTree = "<group>"; };
+		2409024F29EDAF620027F4FB /* LetterWrittingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterWrittingView.swift; sourceTree = "<group>"; };
+		2409025029EDAF620027F4FB /* AprendeSumarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AprendeSumarView.swift; sourceTree = "<group>"; };
+		2409025129EDAF620027F4FB /* MultEjercicio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultEjercicio.swift; sourceTree = "<group>"; };
+		2409025229EDAF620027F4FB /* EjercicioSilabasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EjercicioSilabasView.swift; sourceTree = "<group>"; };
+		2409025329EDAF620027F4FB /* AprendeRestarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AprendeRestarView.swift; sourceTree = "<group>"; };
+		2409025429EDAF620027F4FB /* AprendeMultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AprendeMultView.swift; sourceTree = "<group>"; };
+		2409025F29EDB03E0027F4FB /* OperacionesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperacionesView.swift; sourceTree = "<group>"; };
+		2409026129EDB1820027F4FB /* PalabrasHablarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalabrasHablarView.swift; sourceTree = "<group>"; };
+		2424F66C29EDCD70007CF9F6 /* FigurasGeometricas.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = FigurasGeometricas.rcproject; sourceTree = "<group>"; };
+		2424F66E29EDCD7B007CF9F6 /* PrismasAR.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PrismasAR.rcproject; sourceTree = "<group>"; };
+		2424F67029EDCDC8007CF9F6 /* FigurasGeometricasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigurasGeometricasView.swift; sourceTree = "<group>"; };
+		2424F67229EDCE28007CF9F6 /* PrismasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismasView.swift; sourceTree = "<group>"; };
+		2424F67429EDE0BC007CF9F6 /* LetrasZenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetrasZenView.swift; sourceTree = "<group>"; };
+		2424F67629EDE0C4007CF9F6 /* EscribirLetraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscribirLetraView.swift; sourceTree = "<group>"; };
+		2448955A29ECDBF000F084F9 /* AbecedarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbecedarioView.swift; sourceTree = "<group>"; };
+		2448955C29ECDC1A00F084F9 /* EspaniolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspaniolView.swift; sourceTree = "<group>"; };
+		2448955E29ECDC3500F084F9 /* MatematicasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatematicasView.swift; sourceTree = "<group>"; };
+		24CCDF6A29ECBB810018406E /* Intelia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intelia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CCDF6D29ECBB810018406E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24CCDF6F29ECBB810018406E /* NumerosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumerosView.swift; sourceTree = "<group>"; };
+		24CCDF7129ECBB810018406E /* Numeros.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Numeros.rcproject; sourceTree = "<group>"; };
+		24CCDF7329ECBB820018406E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24CCDF7629ECBB820018406E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24CCDF8029ECC7710018406E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24CCDF6729ECBB810018406E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24CCDF6129ECBB810018406E = {
+			isa = PBXGroup;
+			children = (
+				24CCDF6C29ECBB810018406E /* Intelia */,
+				24CCDF6B29ECBB810018406E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24CCDF6B29ECBB810018406E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24CCDF6A29ECBB810018406E /* Intelia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24CCDF6C29ECBB810018406E /* Intelia */ = {
+			isa = PBXGroup;
+			children = (
+				2424F67629EDE0C4007CF9F6 /* EscribirLetraView.swift */,
+				2424F67429EDE0BC007CF9F6 /* LetrasZenView.swift */,
+				2409024E29EDAF620027F4FB /* AudioHelperView.swift */,
+				24CCDF6D29ECBB810018406E /* AppDelegate.swift */,
+				24CCDF8029ECC7710018406E /* ContentView.swift */,
+				2409025329EDAF620027F4FB /* AprendeRestarView.swift */,
+				2409025029EDAF620027F4FB /* AprendeSumarView.swift */,
+				2409025429EDAF620027F4FB /* AprendeMultView.swift */,
+				2409025229EDAF620027F4FB /* EjercicioSilabasView.swift */,
+				2409024F29EDAF620027F4FB /* LetterWrittingView.swift */,
+				2409025129EDAF620027F4FB /* MultEjercicio.swift */,
+				2409024B29EDAF620027F4FB /* SilabasView.swift */,
+				2409026129EDB1820027F4FB /* PalabrasHablarView.swift */,
+				2448955A29ECDBF000F084F9 /* AbecedarioView.swift */,
+				2448955C29ECDC1A00F084F9 /* EspaniolView.swift */,
+				2448955E29ECDC3500F084F9 /* MatematicasView.swift */,
+				24CCDF6F29ECBB810018406E /* NumerosView.swift */,
+				2409025F29EDB03E0027F4FB /* OperacionesView.swift */,
+				2424F67029EDCDC8007CF9F6 /* FigurasGeometricasView.swift */,
+				2424F67229EDCE28007CF9F6 /* PrismasView.swift */,
+				2409024D29EDAF620027F4FB /* OperacionesAR.rcproject */,
+				24CCDF7129ECBB810018406E /* Numeros.rcproject */,
+				2424F66C29EDCD70007CF9F6 /* FigurasGeometricas.rcproject */,
+				2424F66E29EDCD7B007CF9F6 /* PrismasAR.rcproject */,
+				24CCDF7329ECBB820018406E /* Assets.xcassets */,
+				24CCDF7529ECBB820018406E /* Preview Content */,
+			);
+			path = Intelia;
+			sourceTree = "<group>";
+		};
+		24CCDF7529ECBB820018406E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24CCDF7629ECBB820018406E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24CCDF6929ECBB810018406E /* Intelia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CCDF7A29ECBB820018406E /* Build configuration list for PBXNativeTarget "Intelia" */;
+			buildPhases = (
+				24CCDF6629ECBB810018406E /* Sources */,
+				24CCDF6729ECBB810018406E /* Frameworks */,
+				24CCDF6829ECBB810018406E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Intelia;
+			productName = ARTest;
+			productReference = 24CCDF6A29ECBB810018406E /* Intelia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24CCDF6229ECBB810018406E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					24CCDF6929ECBB810018406E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 24CCDF6529ECBB810018406E /* Build configuration list for PBXProject "Intelia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24CCDF6129ECBB810018406E;
+			productRefGroup = 24CCDF6B29ECBB810018406E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24CCDF6929ECBB810018406E /* Intelia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24CCDF6829ECBB810018406E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CCDF7729ECBB820018406E /* Preview Assets.xcassets in Resources */,
+				24CCDF7429ECBB820018406E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24CCDF6629ECBB810018406E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2424F67729EDE0C4007CF9F6 /* EscribirLetraView.swift in Sources */,
+				24CCDF8129ECC7710018406E /* ContentView.swift in Sources */,
+				2409025B29EDAF620027F4FB /* MultEjercicio.swift in Sources */,
+				24CCDF7029ECBB810018406E /* NumerosView.swift in Sources */,
+				2409025C29EDAF620027F4FB /* EjercicioSilabasView.swift in Sources */,
+				2424F67529EDE0BC007CF9F6 /* LetrasZenView.swift in Sources */,
+				2424F66D29EDCD70007CF9F6 /* FigurasGeometricas.rcproject in Sources */,
+				2409026029EDB03E0027F4FB /* OperacionesView.swift in Sources */,
+				2409025A29EDAF620027F4FB /* AprendeSumarView.swift in Sources */,
+				2424F67129EDCDC8007CF9F6 /* FigurasGeometricasView.swift in Sources */,
+				2448955F29ECDC3500F084F9 /* MatematicasView.swift in Sources */,
+				2409025929EDAF620027F4FB /* LetterWrittingView.swift in Sources */,
+				2409025529EDAF620027F4FB /* SilabasView.swift in Sources */,
+				2409026229EDB1820027F4FB /* PalabrasHablarView.swift in Sources */,
+				2448955D29ECDC1A00F084F9 /* EspaniolView.swift in Sources */,
+				2409025E29EDAF620027F4FB /* AprendeMultView.swift in Sources */,
+				2409025729EDAF620027F4FB /* OperacionesAR.rcproject in Sources */,
+				2448955B29ECDBF000F084F9 /* AbecedarioView.swift in Sources */,
+				2409025D29EDAF620027F4FB /* AprendeRestarView.swift in Sources */,
+				24CCDF6E29ECBB810018406E /* AppDelegate.swift in Sources */,
+				24CCDF7229ECBB810018406E /* Numeros.rcproject in Sources */,
+				2409025829EDAF620027F4FB /* AudioHelperView.swift in Sources */,
+				2424F67329EDCE28007CF9F6 /* PrismasView.swift in Sources */,
+				2424F66F29EDCD7B007CF9F6 /* PrismasAR.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24CCDF7829ECBB820018406E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24CCDF7929ECBB820018406E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24CCDF7B29ECBB820018406E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Intelia/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S675N4Z9W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Se usará el micrófono para calificar la pronunciación.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Se usará para detectar la voz.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macias;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24CCDF7C29ECBB820018406E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Intelia/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S675N4Z9W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Se usará el micrófono para calificar la pronunciación.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Se usará para detectar la voz.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macias;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24CCDF6529ECBB810018406E /* Build configuration list for PBXProject "Intelia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CCDF7829ECBB820018406E /* Debug */,
+				24CCDF7929ECBB820018406E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CCDF7A29ECBB820018406E /* Build configuration list for PBXNativeTarget "Intelia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CCDF7B29ECBB820018406E /* Debug */,
+				24CCDF7C29ECBB820018406E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24CCDF6229ECBB810018406E /* Project object */;
+}
