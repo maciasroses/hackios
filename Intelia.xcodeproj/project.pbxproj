@@ -33,6 +33,8 @@
 		24CCDF7429ECBB820018406E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CCDF7329ECBB820018406E /* Assets.xcassets */; };
 		24CCDF7729ECBB820018406E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CCDF7629ECBB820018406E /* Preview Assets.xcassets */; };
 		24CCDF8129ECC7710018406E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CCDF8029ECC7710018406E /* ContentView.swift */; };
+		FBA2B3DE29EDF0F500B1C404 /* NumerosZenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2B3DC29EDF0F500B1C404 /* NumerosZenView.swift */; };
+		FBA2B3DF29EDF0F500B1C404 /* EscribirNumeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2B3DD29EDF0F500B1C404 /* EscribirNumeroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		24CCDF7329ECBB820018406E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24CCDF7629ECBB820018406E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24CCDF8029ECC7710018406E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBA2B3DC29EDF0F500B1C404 /* NumerosZenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumerosZenView.swift; sourceTree = "<group>"; };
+		FBA2B3DD29EDF0F500B1C404 /* EscribirNumeroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscribirNumeroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		24CCDF6C29ECBB810018406E /* Intelia */ = {
 			isa = PBXGroup;
 			children = (
+				FBA2B3DD29EDF0F500B1C404 /* EscribirNumeroView.swift */,
+				FBA2B3DC29EDF0F500B1C404 /* NumerosZenView.swift */,
 				2424F67629EDE0C4007CF9F6 /* EscribirLetraView.swift */,
 				2424F67429EDE0BC007CF9F6 /* LetrasZenView.swift */,
 				2409024E29EDAF620027F4FB /* AudioHelperView.swift */,
@@ -214,12 +220,14 @@
 				2409025A29EDAF620027F4FB /* AprendeSumarView.swift in Sources */,
 				2424F67129EDCDC8007CF9F6 /* FigurasGeometricasView.swift in Sources */,
 				2448955F29ECDC3500F084F9 /* MatematicasView.swift in Sources */,
+				FBA2B3DF29EDF0F500B1C404 /* EscribirNumeroView.swift in Sources */,
 				2409025929EDAF620027F4FB /* LetterWrittingView.swift in Sources */,
 				2409025529EDAF620027F4FB /* SilabasView.swift in Sources */,
 				2409026229EDB1820027F4FB /* PalabrasHablarView.swift in Sources */,
 				2448955D29ECDC1A00F084F9 /* EspaniolView.swift in Sources */,
 				2409025E29EDAF620027F4FB /* AprendeMultView.swift in Sources */,
 				2409025729EDAF620027F4FB /* OperacionesAR.rcproject in Sources */,
+				FBA2B3DE29EDF0F500B1C404 /* NumerosZenView.swift in Sources */,
 				2448955B29ECDBF000F084F9 /* AbecedarioView.swift in Sources */,
 				2409025D29EDAF620027F4FB /* AprendeRestarView.swift in Sources */,
 				24CCDF6E29ECBB810018406E /* AppDelegate.swift in Sources */,
