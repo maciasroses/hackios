@@ -80,7 +80,7 @@ struct AprendeRestarView: View {
                 }
             }
             if thirdView {
-                Text("Ahora has un ejercicio tú mismo:")
+                Text("Ahora haz un ejercicio tú mismo:")
                     .font(.system(size: 32))
                     .opacity(0.8)
                     .foregroundColor(.black)
