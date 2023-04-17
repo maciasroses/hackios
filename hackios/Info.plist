@@ -2,9 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+<<<<<<< HEAD
 	<key></key>
 	<string></string>
 	<key>UTImportedTypeDeclarations</key>
+=======
+	<key>UTExportedTypeDeclarations</key>
+>>>>>>> 011a4401091b3c144c4a0fd1dd59084356c9eb5f
 	<array>
 		<dict/>
 	</array>
