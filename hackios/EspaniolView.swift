@@ -24,6 +24,9 @@ struct EspaniolView: View {
     ] as [Any]
     var body: some View {
         VStack{
+            
+            AudioHelperView(instructions: "popo")
+            Spacer()
             HStack {
                 Spacer()
                 VStack(){
@@ -81,7 +84,12 @@ struct EspaniolView: View {
                 }
                 Spacer()
             }
+            Spacer()
+           
         }
+        
+        
+        
     }
 }
 
