@@ -19,6 +19,7 @@
 		2424F68B29EDE808007CF9F6 /* PrismasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F68A29EDE808007CF9F6 /* PrismasView.swift */; };
 		2424F68D29EDE820007CF9F6 /* FigurasGeometricasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F68C29EDE820007CF9F6 /* FigurasGeometricasView.swift */; };
 		2424F69329EDE8D0007CF9F6 /* OperacionesAR.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2424F69229EDE8D0007CF9F6 /* OperacionesAR.rcproject */; };
+		2424F69529EDE9A5007CF9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F69429EDE9A5007CF9F6 /* AppDelegate.swift */; };
 		24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDD429EB18E300E6388D /* EspaniolView.swift */; };
 		24BDEDD729EB18E500E6388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD629EB18E500E6388D /* Assets.xcassets */; };
 		24BDEDDA29EB18E500E6388D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		2424F68A29EDE808007CF9F6 /* PrismasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrismasView.swift; sourceTree = "<group>"; };
 		2424F68C29EDE820007CF9F6 /* FigurasGeometricasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FigurasGeometricasView.swift; sourceTree = "<group>"; };
 		2424F69229EDE8D0007CF9F6 /* OperacionesAR.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = OperacionesAR.rcproject; sourceTree = "<group>"; };
+		2424F69429EDE9A5007CF9F6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24BDEDCF29EB18E300E6388D /* hackios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BDEDD429EB18E300E6388D /* EspaniolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspaniolView.swift; sourceTree = "<group>"; };
 		24BDEDD629EB18E500E6388D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		24BDEDD129EB18E300E6388D /* hackios */ = {
 			isa = PBXGroup;
 			children = (
+				2424F69429EDE9A5007CF9F6 /* AppDelegate.swift */,
 				2424F69229EDE8D0007CF9F6 /* OperacionesAR.rcproject */,
 				2424F68C29EDE820007CF9F6 /* FigurasGeometricasView.swift */,
 				2424F68A29EDE808007CF9F6 /* PrismasView.swift */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2424F69529EDE9A5007CF9F6 /* AppDelegate.swift in Sources */,
 				2424F68929EDE802007CF9F6 /* NumerosView.swift in Sources */,
 				2424F67929EDE449007CF9F6 /* MatematicasView.swift in Sources */,
 				FBA56C3529ECDD910035B5AB /* MultEjercicio.swift in Sources */,
