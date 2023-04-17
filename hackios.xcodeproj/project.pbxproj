@@ -18,6 +18,7 @@
 		3A02DA9129EB9301002626FB /* AudioHelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9029EB9301002626FB /* AudioHelperView.swift */; };
 		3A02DA9329EB9E4C002626FB /* SilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9229EB9E4C002626FB /* SilabasView.swift */; };
 		3A02DA9629ECCCB7002626FB /* EjercicioSilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */; };
+		FBB4FD0229EB8E7D0075B279 /* LetterWrittingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4FD0129EB8E7D0075B279 /* LetterWrittingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		3A02DA9229EB9E4C002626FB /* SilabasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabasView.swift; sourceTree = "<group>"; };
 		3A02DA9429EC579A002626FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioSilabasView.swift; sourceTree = "<group>"; };
+		FB9E57C029EBCF70006913BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FBB4FD0129EB8E7D0075B279 /* LetterWrittingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterWrittingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				3A02DA9429EC579A002626FB /* Info.plist */,
+				FB9E57C029EBCF70006913BB /* Info.plist */,
+				FBB4FD0129EB8E7D0075B279 /* LetterWrittingView.swift */,
 				24BDEDD229EB18E300E6388D /* hackiosApp.swift */,
 				3A02DA8E29EB2887002626FB /* AbecedarioView.swift */,
 				24BDEDE229EB4F4700E6388D /* ContentView.swift */,
@@ -168,6 +173,7 @@
 				24BDEDD329EB18E300E6388D /* hackiosApp.swift in Sources */,
 				24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */,
 				3A02DA9329EB9E4C002626FB /* SilabasView.swift in Sources */,
+				FBB4FD0229EB8E7D0075B279 /* LetterWrittingView.swift in Sources */,
 				24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +308,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hackios/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "El micrófono se utilizará para escuchar la pronunciación en los ejercicios de español";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "El reconocimiento de voz se utilizará para evaluar si la pronunciación fue correcta";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -334,6 +342,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hackios/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "El micrófono se utilizará para escuchar la pronunciación en los ejercicios de español";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "El reconocimiento de voz se utilizará para evaluar si la pronunciación fue correcta";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
