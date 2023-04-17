@@ -21,6 +21,7 @@
 		3A02DA9129EB9301002626FB /* AudioHelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9029EB9301002626FB /* AudioHelperView.swift */; };
 		3A02DA9329EB9E4C002626FB /* SilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9229EB9E4C002626FB /* SilabasView.swift */; };
 		3A02DA9629ECCCB7002626FB /* EjercicioSilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */; };
+		FBA2B3BD29EDE53E00B1C404 /* EscribirNumeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2B3BC29EDE53E00B1C404 /* EscribirNumeroView.swift */; };
 		FBA56C3129ECCAAA0035B5AB /* AprendeRestarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA56C3029ECCAAA0035B5AB /* AprendeRestarView.swift */; };
 		FBA56C3329ECCE300035B5AB /* AprendeMultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA56C3229ECCE300035B5AB /* AprendeMultView.swift */; };
 		FBA56C3529ECDD910035B5AB /* MultEjercicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA56C3429ECDD910035B5AB /* MultEjercicio.swift */; };
@@ -44,6 +45,7 @@
 		3A02DA9029EB9301002626FB /* AudioHelperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHelperView.swift; sourceTree = "<group>"; };
 		3A02DA9229EB9E4C002626FB /* SilabasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabasView.swift; sourceTree = "<group>"; };
 		3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioSilabasView.swift; sourceTree = "<group>"; };
+		FBA2B3BC29EDE53E00B1C404 /* EscribirNumeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscribirNumeroView.swift; sourceTree = "<group>"; };
 		FBA56C3029ECCAAA0035B5AB /* AprendeRestarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeRestarView.swift; sourceTree = "<group>"; };
 		FBA56C3229ECCE300035B5AB /* AprendeMultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeMultView.swift; sourceTree = "<group>"; };
 		FBA56C3429ECDD910035B5AB /* MultEjercicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultEjercicio.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		24BDEDC629EB18E300E6388D = {
 			isa = PBXGroup;
 			children = (
+				FBA2B3BC29EDE53E00B1C404 /* EscribirNumeroView.swift */,
 				24BDEDD129EB18E300E6388D /* hackios */,
 				24BDEDD029EB18E300E6388D /* Products */,
 			);
@@ -193,6 +196,7 @@
 				24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */,
 				24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */,
 				3A02DA9129EB9301002626FB /* AudioHelperView.swift in Sources */,
+				FBA2B3BD29EDE53E00B1C404 /* EscribirNumeroView.swift in Sources */,
 				3A02DA9629ECCCB7002626FB /* EjercicioSilabasView.swift in Sources */,
 				2424F68329EDE468007CF9F6 /* FigurasGeometricas.rcproject in Sources */,
 				FBA56C3329ECCE300035B5AB /* AprendeMultView.swift in Sources */,
