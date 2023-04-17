@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var firstTime: Bool = true
+    @State var isPopupPresented = false
     var body: some View {
         NavigationStack{
             VStack{
@@ -55,7 +56,7 @@ struct ContentView: View {
                 HStack{
                     Spacer()
                     Button{
-                        //Abrir popup para ver la informacion de la aplicacion y porque se hizo
+                       isPopupPresented = true
                     } label: {
                         Image(systemName: "questionmark.square.fill")
                             .foregroundColor(.black)
@@ -77,9 +78,10 @@ struct ContentView: View {
                     firstTime = false
                 }
                 
-                
                
             }
+        }.sheet(isPresented: $isPopupPresented){
+            PopupView(isPresented: $isPopupPresented).presentationDetents([.height(700)])
         }
     }
 }
@@ -89,4 +91,46 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+struct PopupView: View {
+    @Binding var isPresented: Bool
+
+
+
+    var body: some View {
+            VStack {
+                ZStack{
+                    AudioHelperView(instructions: "Bienvenido a Intelia. Intelia es una aplicación diseñada para iPad, que busca apoyar a los niños de México a adquirir conocimientos relacionados con los fundamentos de Español y Matemáticas. Esta aplicación nace para atacar el O De eSe #4: Educación de calidad. En línea con este objetivo, nuestra aplicación busca hacer que el aprendizaje sea más accesible, inclusivo y equitativo para todos los mexicanos. Utilizamos tecnologías como reconocimiento de voz, voz a texto, realidad aumentada y el uso del Apple Pencil para ofrecer una experiencia educativa interactiva y atractiva.")
+                    VStack{
+                        Text("🧑🏻‍🎓📕📚")
+                            .font(.system(size: 60))
+                            .padding(.bottom)
+                        
+                    }
+                }
+                HStack{
+                    Text("¡Bienvenid@ a")
+                        .bold()
+                        .font(.system(size: 45))
+                    
+                    Text("Intelia!")
+                        .bold()
+                        .font(.system(size: 45))
+                        .foregroundColor(.teal)
+                }
+                .padding(.bottom)
+                
+                Text("Intelia es una aplicación diseñada para iPad, que busca apoyar a los niños de México a adquirir conocimientos relacionados con los fundamentos de Español y Matemáticas.\n\nEsta aplicación nace para atacar el ODS #4: Educación de calidad. En línea con este objetivo, nuestra aplicación busca hacer que el aprendizaje sea más accesible, inclusivo y equitativo para todos los mexicanos.\n\nUtilizamos tecnologías como reconocimiento de voz, voz a texto, realidad aumentada y el uso del Apple Pencil para ofrecer una experiencia educativa interactiva y atractiva.")
+                    .font(.
+                          title2)
+     
+                
+                
+            }.padding(50)
+            
+            
+            
+        }
+    }
+
 
