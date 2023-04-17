@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2424F67929EDE449007CF9F6 /* MatematicasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F67829EDE449007CF9F6 /* MatematicasView.swift */; };
+		2424F67B29EDE452007CF9F6 /* LetrasZenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F67A29EDE452007CF9F6 /* LetrasZenView.swift */; };
+		2424F67D29EDE458007CF9F6 /* EscribirLetraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424F67C29EDE458007CF9F6 /* EscribirLetraView.swift */; };
+		2424F67F29EDE460007CF9F6 /* PrismasAR.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2424F67E29EDE460007CF9F6 /* PrismasAR.rcproject */; };
+		2424F68129EDE464007CF9F6 /* Numeros.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2424F68029EDE464007CF9F6 /* Numeros.rcproject */; };
+		2424F68329EDE468007CF9F6 /* FigurasGeometricas.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2424F68229EDE468007CF9F6 /* FigurasGeometricas.rcproject */; };
 		24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDD429EB18E300E6388D /* EspaniolView.swift */; };
 		24BDEDD729EB18E500E6388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD629EB18E500E6388D /* Assets.xcassets */; };
 		24BDEDDA29EB18E500E6388D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */; };
@@ -23,6 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2424F67829EDE449007CF9F6 /* MatematicasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatematicasView.swift; sourceTree = "<group>"; };
+		2424F67A29EDE452007CF9F6 /* LetrasZenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetrasZenView.swift; sourceTree = "<group>"; };
+		2424F67C29EDE458007CF9F6 /* EscribirLetraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscribirLetraView.swift; sourceTree = "<group>"; };
+		2424F67E29EDE460007CF9F6 /* PrismasAR.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PrismasAR.rcproject; sourceTree = "<group>"; };
+		2424F68029EDE464007CF9F6 /* Numeros.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Numeros.rcproject; sourceTree = "<group>"; };
+		2424F68229EDE468007CF9F6 /* FigurasGeometricas.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = FigurasGeometricas.rcproject; sourceTree = "<group>"; };
 		24BDEDCF29EB18E300E6388D /* hackios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BDEDD429EB18E300E6388D /* EspaniolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspaniolView.swift; sourceTree = "<group>"; };
 		24BDEDD629EB18E500E6388D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,6 +82,12 @@
 		24BDEDD129EB18E300E6388D /* hackios */ = {
 			isa = PBXGroup;
 			children = (
+				2424F68229EDE468007CF9F6 /* FigurasGeometricas.rcproject */,
+				2424F68029EDE464007CF9F6 /* Numeros.rcproject */,
+				2424F67E29EDE460007CF9F6 /* PrismasAR.rcproject */,
+				2424F67C29EDE458007CF9F6 /* EscribirLetraView.swift */,
+				2424F67A29EDE452007CF9F6 /* LetrasZenView.swift */,
+				2424F67829EDE449007CF9F6 /* MatematicasView.swift */,
 				FBA56C3829ECEFB70035B5AB /* OperacionesAR.rcproject */,
 				FBA56C3429ECDD910035B5AB /* MultEjercicio.swift */,
 				FBA56C3229ECCE300035B5AB /* AprendeMultView.swift */,
@@ -166,17 +184,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2424F67929EDE449007CF9F6 /* MatematicasView.swift in Sources */,
 				FBA56C3529ECDD910035B5AB /* MultEjercicio.swift in Sources */,
+				2424F67B29EDE452007CF9F6 /* LetrasZenView.swift in Sources */,
 				FBA56C3129ECCAAA0035B5AB /* AprendeRestarView.swift in Sources */,
+				2424F68129EDE464007CF9F6 /* Numeros.rcproject in Sources */,
 				3A02DA8F29EB2887002626FB /* AbecedarioView.swift in Sources */,
 				24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */,
 				24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */,
 				3A02DA9129EB9301002626FB /* AudioHelperView.swift in Sources */,
 				3A02DA9629ECCCB7002626FB /* EjercicioSilabasView.swift in Sources */,
+				2424F68329EDE468007CF9F6 /* FigurasGeometricas.rcproject in Sources */,
 				FBA56C3329ECCE300035B5AB /* AprendeMultView.swift in Sources */,
 				3A02DA9329EB9E4C002626FB /* SilabasView.swift in Sources */,
 				FBB4FD0229EB8E7D0075B279 /* LetterWrittingView.swift in Sources */,
+				2424F67D29EDE458007CF9F6 /* EscribirLetraView.swift in Sources */,
 				FBB2B21E29EC9346007E92C7 /* AprendeSumarView.swift in Sources */,
+				2424F67F29EDE460007CF9F6 /* PrismasAR.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
