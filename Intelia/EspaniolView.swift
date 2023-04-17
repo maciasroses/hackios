@@ -117,7 +117,7 @@ struct EspaniolView: View {
                                 }
                                 )
                                 NavigationLink {
-                                    //asdasd
+                                    EscribirNumeroView()
                                 } label: {
                                     Text("Números")
                                         .foregroundColor(.black).fontWeight(.semibold)

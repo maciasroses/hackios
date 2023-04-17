@@ -83,21 +83,23 @@ struct EscribirLetraView: View {
 
     var body: some View {
         NavigationStack{
-            VStack{
-                Text("Práctica de escritura")
-                    .bold()
-                    .font(.largeTitle)
-                    .padding(.top, 30)
-                    .padding(.bottom, 1)
-                
-                
-                Text("Traza las letras que te aparecen en pantalla 3 veces.")
-                    .font(.title2)
-                    .foregroundColor(.gray)
-                    .padding(.bottom, 4)
-                    .italic()
+            ZStack{
+                AudioHelperView(instructions: "En esta pantalla podrás practicar tu caligrafía. Tienes diferentes letras, en mayúscula y en minúscula, teniendo 3 posibles aciertos para practicar lo mayor posible. Además, hasta abajo tienes un modo libre llamado Modo Zen.")
+                VStack{
+                    Text("Práctica de escritura")
+                        .bold()
+                        .font(.largeTitle)
+                        .padding(.top, 30)
+                        .padding(.bottom, 1)
+                    
+                    
+                    Text("Traza las letras que te aparecen en pantalla 3 veces.")
+                        .font(.title2)
+                        .foregroundColor(.gray)
+                        .padding(.bottom, 4)
+                        .italic()
+                }
             }
-            
             HStack (spacing: 150){
                 HStack (spacing: 70){
                     EscribeLetra(letter: "D", image: "LetraD")

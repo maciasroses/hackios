@@ -17,16 +17,19 @@ struct AprendeSumarView: View {
     @State var thirdButtonClicked = false
     var body: some View {
         VStack{
-            Text("Sumar ➕")
-                .font(.system(size: 70, weight: .bold))
-                .padding(.bottom)
-                .onAppear{
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2){
-                        withAnimation(.easeInOut(duration: 0.5)){
-                            firstView = true
+            ZStack{
+                AudioHelperView(instructions: "En esta pantalla aprenderás la teoría de las sumas. Una suma es una operacion aritmética que consiste en juntar varias cantidades en una sola; puedes ver un ejemplo de una suma con naranjas. Ahora, intenta resolver la suma que se encuentra al final de la pantalla.")
+                Text("Sumar ➕")
+                    .font(.system(size: 70, weight: .bold))
+                    .padding(.bottom)
+                    .onAppear{
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2){
+                            withAnimation(.easeInOut(duration: 0.5)){
+                                firstView = true
+                            }
                         }
                     }
-                }
+            }
             if firstView {
                 Text("Es una operacion aritmética que consiste en juntar varias cantidades en una sola")
                     .font(.system(size: 32))

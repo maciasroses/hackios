@@ -18,18 +18,21 @@ struct AprendeMultView: View {
     var body: some View {
         NavigationStack {
             VStack{
-                Text("Multiplicar ✖️")
-                    .font(.system(size: 70, weight: .bold))
-                    .padding(.bottom)
-                    .onAppear{
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 2){
-                            withAnimation(.easeInOut(duration: 0.5)){
-                                firstView = true
+                ZStack{
+                    AudioHelperView(instructions: "En esta pantalla aprenderás la teoría de las multiplicaciones. Una multiplicación es una suma abreviada donde un número se repite tantas veces como el otro número lo indica, dando el mismo reultado; puedes ver un ejemplo de una multiplicación con flores. Ahora, toca el botón azul para resolver una multiplicación.")
+                    Text("Multiplicar ✖️")
+                        .font(.system(size: 70, weight: .bold))
+                        .padding(.bottom)
+                        .onAppear{
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 2){
+                                withAnimation(.easeInOut(duration: 0.5)){
+                                    firstView = true
+                                }
                             }
                         }
-                    }
+                }
                 if firstView {
-                    Text("Es una suma abreviada donde un numero se repite tantas veces como el otro número lo indica, dando el mismo reultado")
+                    Text("Es una suma abreviada donde un número se repite tantas veces como el otro número lo indica, dando el mismo reultado")
                         .font(.system(size: 32))
                         .foregroundColor(.black)
                         .opacity(0.8)
