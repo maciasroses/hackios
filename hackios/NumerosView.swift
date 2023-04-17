@@ -1,6 +1,6 @@
 //
-//  BORRARPruebaar.swift
-//  ARTest
+//  NumerosView.swift
+//  Intelia
 //
 //  Created by Macías Romero on 16/04/23.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 import RealityKit
 
-struct BORRARPruebaar : View {
+struct NumerosView : View {
     var body: some View {
         ARViewContainer().edgesIgnoringSafeArea(.all)
     }
@@ -21,7 +21,7 @@ struct ARViewContainer: UIViewRepresentable {
         let arView = ARView(frame: .zero)
         
         // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! NumerosAR.loadBox()
+        let boxAnchor = try! Numeros.loadBox()
         
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)
@@ -35,9 +35,9 @@ struct ARViewContainer: UIViewRepresentable {
 }
 
 #if DEBUG
-struct BORRARPruebaar_Previews : PreviewProvider {
+struct NumerosView_Previews : PreviewProvider {
     static var previews: some View {
-        BORRARPruebaar()
+        NumerosView()
     }
 }
 #endif

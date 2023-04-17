@@ -1,6 +1,6 @@
 //
-//  PalabrasHablar.swift
-//  hackios
+//  PalabrasHablarView.swift
+//  Intelia
 //
 //  Created by Macías Romero on 15/04/23.
 //
@@ -16,14 +16,15 @@ let request = SFSpeechAudioBufferRecognitionRequest()
 var speechTask: SFSpeechRecognitionTask! = nil
 var isStart: Bool = false
 
-struct PalabrasHablar: View {
+struct PalabrasHablarView: View {
     @State var isDisabled: Bool = false
     @State var message = "..."
-    @State var feedback = "Try now"
+    @State var feedback = "Prúebalo"
     @State var feedbackStatus = 0
     @State var buttonImage = "mic.circle.fill"
     var body: some View {
         VStack{
+            AudioHelperView(instructions: "En esta pantalla podrás practicar tu pronunciación. Se te mostrará un ejemplo en pantalla, puedes escuchar cómo se dice si presionas el ícono de la bocina. Ahora, es tu turno, presiona el ícono del micrófono y practica tu pronunciación.")
             Text("🐝")
                 .font(.system(size: 100))
             HStack{
@@ -156,8 +157,8 @@ struct PalabrasHablar: View {
     }
 }
 
-struct PalabrasHablar_Previews: PreviewProvider {
+struct PalabrasHablarView_Previews: PreviewProvider {
     static var previews: some View {
-        PalabrasHablar()
+        PalabrasHablarView()
     }
 }

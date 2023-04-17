@@ -1,6 +1,6 @@
 //
 //  EjercicioSilabasView.swift
-//  hackios
+//  Intelia
 //
 //  Created by Adrian Faz on 16/04/23.
 //

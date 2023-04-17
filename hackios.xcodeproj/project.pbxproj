@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24BDEDD329EB18E300E6388D /* hackiosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDD229EB18E300E6388D /* hackiosApp.swift */; };
 		24BDEDD529EB18E300E6388D /* EspaniolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDD429EB18E300E6388D /* EspaniolView.swift */; };
 		24BDEDD729EB18E500E6388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD629EB18E500E6388D /* Assets.xcassets */; };
 		24BDEDDA29EB18E500E6388D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */; };
 		24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE229EB4F4700E6388D /* ContentView.swift */; };
-		24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */; };
-		24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */; };
 		3A02DA8F29EB2887002626FB /* AbecedarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA8E29EB2887002626FB /* AbecedarioView.swift */; };
 		3A02DA9129EB9301002626FB /* AudioHelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9029EB9301002626FB /* AudioHelperView.swift */; };
 		3A02DA9329EB9E4C002626FB /* SilabasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DA9229EB9E4C002626FB /* SilabasView.swift */; };
@@ -27,18 +24,14 @@
 
 /* Begin PBXFileReference section */
 		24BDEDCF29EB18E300E6388D /* hackios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		24BDEDD229EB18E300E6388D /* hackiosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackiosApp.swift; sourceTree = "<group>"; };
 		24BDEDD429EB18E300E6388D /* EspaniolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspaniolView.swift; sourceTree = "<group>"; };
 		24BDEDD629EB18E500E6388D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24BDEDD929EB18E500E6388D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24BDEDE229EB4F4700E6388D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalabrasHablar.swift; sourceTree = "<group>"; };
-		24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabasHablar.swift; sourceTree = "<group>"; };
 		3A02DA8E29EB2887002626FB /* AbecedarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbecedarioView.swift; sourceTree = "<group>"; };
 		3A02DA9029EB9301002626FB /* AudioHelperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHelperView.swift; sourceTree = "<group>"; };
 		3A02DA9229EB9E4C002626FB /* SilabasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilabasView.swift; sourceTree = "<group>"; };
 		3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioSilabasView.swift; sourceTree = "<group>"; };
-		FB9E57C029EBCF70006913BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FBA56C3029ECCAAA0035B5AB /* AprendeRestarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeRestarView.swift; sourceTree = "<group>"; };
 		FBA56C3229ECCE300035B5AB /* AprendeMultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendeMultView.swift; sourceTree = "<group>"; };
 		FBA56C3429ECDD910035B5AB /* MultEjercicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultEjercicio.swift; sourceTree = "<group>"; };
@@ -82,15 +75,11 @@
 				FBA56C3229ECCE300035B5AB /* AprendeMultView.swift */,
 				FBA56C3029ECCAAA0035B5AB /* AprendeRestarView.swift */,
 				FBB2B21D29EC9346007E92C7 /* AprendeSumarView.swift */,
-				FB9E57C029EBCF70006913BB /* Info.plist */,
 				FBB4FD0129EB8E7D0075B279 /* LetterWrittingView.swift */,
-				24BDEDD229EB18E300E6388D /* hackiosApp.swift */,
 				3A02DA8E29EB2887002626FB /* AbecedarioView.swift */,
 				24BDEDE229EB4F4700E6388D /* ContentView.swift */,
 				24BDEDD429EB18E300E6388D /* EspaniolView.swift */,
-				24BDEDE429EB558B00E6388D /* PalabrasHablar.swift */,
 				3A02DA9029EB9301002626FB /* AudioHelperView.swift */,
-				24BDEDE629EB66EC00E6388D /* SilabasHablar.swift */,
 				3A02DA9229EB9E4C002626FB /* SilabasView.swift */,
 				3A02DA9529ECCCB7002626FB /* EjercicioSilabasView.swift */,
 				24BDEDD629EB18E500E6388D /* Assets.xcassets */,
@@ -184,12 +173,9 @@
 				24BDEDE329EB4F4700E6388D /* ContentView.swift in Sources */,
 				3A02DA9129EB9301002626FB /* AudioHelperView.swift in Sources */,
 				3A02DA9629ECCCB7002626FB /* EjercicioSilabasView.swift in Sources */,
-				24BDEDD329EB18E300E6388D /* hackiosApp.swift in Sources */,
 				FBA56C3329ECCE300035B5AB /* AprendeMultView.swift in Sources */,
-				24BDEDE729EB66EC00E6388D /* SilabasHablar.swift in Sources */,
 				3A02DA9329EB9E4C002626FB /* SilabasView.swift in Sources */,
 				FBB4FD0229EB8E7D0075B279 /* LetterWrittingView.swift in Sources */,
-				24BDEDE529EB558B00E6388D /* PalabrasHablar.swift in Sources */,
 				FBB2B21E29EC9346007E92C7 /* AprendeSumarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,6 +1,6 @@
 //
 //  MatematicasView.swift
-//  hackios
+//  Intelia
 //
 //  Created by Macías Romero on 15/04/23.
 //
@@ -10,6 +10,21 @@ import SwiftUI
 struct MatematicasView: View {
     var body: some View {
         NavigationStack{
+            AudioHelperView(instructions: "En esta pantalla aparecen ejercicios de práctica divididos en dos columnas. La primera, con un dibujo de unos lentes, son experiencias en realidad aumentada, mientras que la segunda, con un dibujo de un cerébro, son para practicar las operaciones básicas.")
+            VStack{
+                Text("Área de Matemáticas")
+                    .bold()
+                    .font(.largeTitle)
+                    .padding(.top, 30)
+                    .padding(.bottom, 1)
+                
+                
+                Text("Presiona sobre cada tópico para entrar a los ejercicios.")
+                    .font(.title2)
+                    .foregroundColor(.gray)
+                    .padding(.bottom, 10)
+                    .italic()
+            }
             VStack{
                 HStack {
                     Spacer()
@@ -19,7 +34,7 @@ struct MatematicasView: View {
                         VStack(alignment: .leading){
                             HStack{
                                 Button(action: {
-                                    print("Holi")
+                                    speechToText(text: "Números")
                                 }, label: {
                                     Image(systemName: "waveform.circle.fill")
                                         .font(.system(size: 30,weight: .regular, design: .default))
@@ -27,7 +42,7 @@ struct MatematicasView: View {
                                 }
                                 )
                                 NavigationLink {
-                                        //
+                                    NumerosView().onAppear{speechToText(text: "En esta experiencia podrás ver diferentes cantidades de galletas de acuerdo al número que está sobre las charolas.")}
                                 } label: {
                                     Text("Números")
                                         .foregroundColor(.black).fontWeight(.semibold)
@@ -36,7 +51,7 @@ struct MatematicasView: View {
                             }.padding(.vertical,7)
                             HStack{
                                 Button(action: {
-                                    print("Holi")
+                                    speechToText(text: "Figuras geométricas")
                                 }, label: {
                                     Image(systemName: "waveform.circle.fill")
                                         .font(.system(size: 30,weight: .regular, design: .default))
@@ -44,7 +59,7 @@ struct MatematicasView: View {
                                 }
                                 )
                                 NavigationLink {
-                                    //
+                                    FigurasGeometricasView().onAppear{speechToText(text: "En esta experiencia podrás ver diferentes figuras geométricas con su nombre.")}
                                 } label: {
                                     Text("Figuras Geométricas")
                                         .foregroundColor(.black).fontWeight(.semibold)
@@ -53,7 +68,7 @@ struct MatematicasView: View {
                             }.padding(.vertical,7)
                             HStack{
                                 Button(action: {
-                                    print("Holi")
+                                    speechToText(text: "Prismas")
                                 }, label: {
                                     Image(systemName: "waveform.circle.fill")
                                         .font(.system(size: 30,weight: .regular, design: .default))
@@ -61,7 +76,7 @@ struct MatematicasView: View {
                                 }
                                 )
                                 NavigationLink {
-                                    //
+                                    PrismasView().onAppear{speechToText(text: "En esta experiencia podrás ver diferentes figuras geométricas en tercera dimensión con su nombre.")}
                                 } label: {
                                     Text("Prismas")
                                         .foregroundColor(.black).fontWeight(.semibold)
@@ -70,7 +85,7 @@ struct MatematicasView: View {
                             }.padding(.vertical,7)
                             HStack{
                                 Button(action: {
-                                    print("Holi")
+                                    speechToText(text: "Operaciones")
                                 }, label: {
                                     Image(systemName: "waveform.circle.fill")
                                         .font(.system(size: 30,weight: .regular, design: .default))
@@ -78,7 +93,7 @@ struct MatematicasView: View {
                                 }
                                 )
                                 NavigationLink {
-                                    //
+                                    OperacionesView()
                                 } label: {
                                     Text("Operaciones")
                                         .foregroundColor(.black).fontWeight(.semibold)
@@ -87,7 +102,7 @@ struct MatematicasView: View {
                             }.padding(.vertical,7)
                             HStack{
                                 Button(action: {
-                                    print("Holi")
+                                    speechToText(text: "Fracciones")
                                 }, label: {
                                     Image(systemName: "waveform.circle.fill")
                                         .font(.system(size: 30,weight: .regular, design: .default))
@@ -111,7 +126,7 @@ struct MatematicasView: View {
                         VStack(alignment: .leading){
                             HStack{
                                 Button(action: {
-                                    print("Holi")
+                                    speechToText(text: "Suma")
                                 }, label: {
                                     Image(systemName: "waveform.circle.fill")
                                         .font(.system(size: 30,weight: .regular, design: .default))
@@ -119,7 +134,7 @@ struct MatematicasView: View {
                                 }
                                 )
                                 NavigationLink {
-                                    //sdssss
+                                    AprendeSumarView()
                                 } label: {
                                     Text("Suma")
                                         .foregroundColor(.black).fontWeight(.semibold)
@@ -128,7 +143,7 @@ struct MatematicasView: View {
                             }.padding(.vertical,7)
                             HStack{
                                 Button(action: {
-                                    print("Holi")
+                                    speechToText(text: "Resta")
                                 }, label: {
                                     Image(systemName: "waveform.circle.fill")
                                         .font(.system(size: 30,weight: .regular, design: .default))
@@ -136,7 +151,7 @@ struct MatematicasView: View {
                                 }
                                 )
                                 NavigationLink {
-                                    //asdasd
+                                    AprendeRestarView()
                                 } label: {
                                     Text("Resta")
                                         .foregroundColor(.black).fontWeight(.semibold)
@@ -145,7 +160,7 @@ struct MatematicasView: View {
                             }.padding(.vertical,7)
                             HStack{
                                 Button(action: {
-                                    print("Holi")
+                                    speechToText(text: "Multiplicación")
                                 }, label: {
                                     Image(systemName: "waveform.circle.fill")
                                         .font(.system(size: 30,weight: .regular, design: .default))
@@ -153,7 +168,7 @@ struct MatematicasView: View {
                                 }
                                 )
                                 NavigationLink {
-                                    //asdasdasd
+                                    AprendeMultView()
                                 } label: {
                                     Text("Multiplicación")
                                         .foregroundColor(.black).fontWeight(.semibold)
@@ -162,7 +177,7 @@ struct MatematicasView: View {
                             }.padding(.vertical,7)
                             HStack{
                                 Button(action: {
-                                    print("Holi")
+                                    speechToText(text: "División")
                                 }, label: {
                                     Image(systemName: "waveform.circle.fill")
                                         .font(.system(size: 30,weight: .regular, design: .default))
@@ -179,7 +194,7 @@ struct MatematicasView: View {
                             }.padding(.vertical,7)
                             HStack{
                                 Button(action: {
-                                    print("Holi")
+                                    speechToText(text: "Fracción")
                                 }, label: {
                                     Image(systemName: "waveform.circle.fill")
                                         .font(.system(size: 30,weight: .regular, design: .default))
@@ -199,6 +214,7 @@ struct MatematicasView: View {
                     Spacer()
                 }
             }
+            Spacer()
         }
     }
 }

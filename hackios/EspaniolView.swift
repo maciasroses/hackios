@@ -1,6 +1,6 @@
 //
 //  EspaniolView.swift
-//  hackios
+//  Intelia
 //
 //  Created by Macías Romero on 15/04/23.
 //
@@ -8,84 +8,147 @@
 import SwiftUI
 
 struct EspaniolView: View {
-    let topicosHabla = [
-        "Abecedario",
-        "Silabas",
-        "Palabras"
-    ]
-    let topicosEscrit = [
-        "Abecedario",
-        "Números",
-        "Palabras"
-    ]
     var body: some View {
-        VStack{
-            
-            AudioHelperView(instructions: "popo")
-            Spacer()
-            HStack {
-                Spacer()
-                VStack(){
-                    Text("Hablar 🎤")
-                        .font(.system(size: 40))
-                    VStack(alignment: .leading){
-                        ForEach(0..<3, id:  \.self) { number in
+        NavigationStack{
+                AudioHelperView(instructions: "En esta pantalla aparecen ejercicios de práctica divididos en dos columnas. La primera, con un dibujo de un micrófono, son ejercicios para practicar la pronunciación, mientras que la segunda, con un dibujo de un lápiz, son para practicar caligrafía.")
+                VStack{
+                    Text("Área de Español")
+                        .bold()
+                        .font(.largeTitle)
+                        .padding(.top, 120)
+                        .padding(.bottom, 1)
+                    
+                    
+                    Text("Presiona sobre cada tópico para entrar a los ejercicios.")
+                        .font(.title2)
+                        .foregroundColor(.gray)
+                        .padding(.bottom, 10)
+                        .italic()
+                }
+            VStack{
+                HStack {
+                    Spacer()
+                    VStack(){
+                        Text("Hablar 🎤")
+                            .font(.system(size: 40))
+                        VStack(alignment: .leading){
                             HStack{
                                 Button(action: {
-                                    print("Holi")
+                                    speechToText(text: "Abecedario")
                                 }, label: {
                                     Image(systemName: "waveform.circle.fill")
                                         .font(.system(size: 30,weight: .regular, design: .default))
                                         .foregroundColor(.orange)
                                 }
                                 )
-                                Button(action: {
-                                    print("Holi2")
-                                }, label: {
-                                    Text(topicosHabla[number])
+                                NavigationLink {
+                                        AbecedarioView()
+                                } label: {
+                                    Text("Abecedario")
                                         .foregroundColor(.black).fontWeight(.semibold)
                                         .font(.system(size: 30))
                                 }
-                                )
                             }.padding(.vertical,7)
-                        }
-                    }
-                }
-                Spacer()
-                VStack{
-                    Text("Escribir ✏️")
-                        .font(.system(size: 40))
-                    VStack(alignment: .leading){
-                        ForEach(0..<3, id:  \.self) { number in
                             HStack{
                                 Button(action: {
-                                    print("Holi")
+                                    speechToText(text: "Sílabas")
                                 }, label: {
                                     Image(systemName: "waveform.circle.fill")
-                                        .font(.system(size: 25,weight: .regular, design: .default))
+                                        .font(.system(size: 30,weight: .regular, design: .default))
                                         .foregroundColor(.orange)
                                 }
                                 )
-                                Button(action: {
-                                    print("Holi2")
-                                }, label: {
-                                    Text(topicosEscrit[number])
+                                NavigationLink {
+                                    SilabasView()
+                                } label: {
+                                    Text("Sílabas")
                                         .foregroundColor(.black).fontWeight(.semibold)
                                         .font(.system(size: 30))
                                 }
+                            }.padding(.vertical,7)
+                            HStack{
+                                Button(action: {
+                                    speechToText(text: "Palabras")
+                                }, label: {
+                                    Image(systemName: "waveform.circle.fill")
+                                        .font(.system(size: 30,weight: .regular, design: .default))
+                                        .foregroundColor(.orange)
+                                }
                                 )
+                                NavigationLink {
+                                    PalabrasHablarView()
+                                } label: {
+                                    Text("Palabras")
+                                        .foregroundColor(.black).fontWeight(.semibold)
+                                        .font(.system(size: 30))
+                                }
                             }.padding(.vertical,7)
                         }
                     }
+                    Spacer()
+                    VStack{
+                        Text("Escribir ✏️")
+                            .font(.system(size: 40))
+                        VStack(alignment: .leading){
+                            HStack{
+                                Button(action: {
+                                    speechToText(text: "Abecedario")
+                                }, label: {
+                                    Image(systemName: "waveform.circle.fill")
+                                        .font(.system(size: 30,weight: .regular, design: .default))
+                                        .foregroundColor(.orange)
+                                }
+                                )
+                                NavigationLink {
+                                    EscribirLetraView()
+                                } label: {
+                                    Text("Abecedario")
+                                        .foregroundColor(.black).fontWeight(.semibold)
+                                        .font(.system(size: 30))
+                                }
+                            }.padding(.vertical,7)
+                            HStack{
+                                Button(action: {
+                                    speechToText(text: "Números")
+                                }, label: {
+                                    Image(systemName: "waveform.circle.fill")
+                                        .font(.system(size: 30,weight: .regular, design: .default))
+                                        .foregroundColor(.orange)
+                                }
+                                )
+                                NavigationLink {
+                                    //asdasd
+                                } label: {
+                                    Text("Números")
+                                        .foregroundColor(.black).fontWeight(.semibold)
+                                        .font(.system(size: 30))
+                                }
+                            }.padding(.vertical,7)
+                            HStack{
+                                Button(action: {
+                                    speechToText(text: "Palabras")
+                                }, label: {
+                                    Image(systemName: "waveform.circle.fill")
+                                        .font(.system(size: 30,weight: .regular, design: .default))
+                                        .foregroundColor(.orange)
+                                }
+                                )
+                                NavigationLink {
+                                    //asdasdasd
+                                } label: {
+                                    Text("Palabras")
+                                        .foregroundColor(.black).fontWeight(.semibold)
+                                        .font(.system(size: 30))
+                                }
+                            }.padding(.vertical,7)
+
+                        }
+                    }
+                    Spacer()
                 }
-                Spacer()
             }
             Spacer()
-           
         }
-        
-        
-        
     }
 }
 
@@ -94,3 +157,4 @@ struct EspaniolView_Previews: PreviewProvider {
         EspaniolView()
     }
 }
+

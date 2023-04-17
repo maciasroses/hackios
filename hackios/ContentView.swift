@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  hackios
+//  Intelia
 //
-//  Created by Macías Romero on 15/04/23.
+//  Created by Adrian Faz & Macías Romero on 15/04/23.
 //
 
 import SwiftUI
@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationStack{
             VStack{
                 
-                AudioHelperView(instructions: "Bienvenido a Intelia, una aplicación increíble donde podrás aprender acerca de Español y Matemáticas. En pantalla puedes ver dos botones, el de la izquierda es de Español y el de la derecha es de Matemáticas. Presiona el botón que te interese aprender. ")
+                AudioHelperView(instructions: "En pantalla puedes ver dos botones, el de la izquierda es de Español y el de la derecha es de Matemáticas. Presiona el botón que te interese aprender.")
     
                 Text("Intelia")
                     .font(.system(size: 92, weight: .bold))
@@ -38,7 +38,7 @@ struct ContentView: View {
                     .padding(.trailing, 75)
                     
                     NavigationLink{
-                        //MateView()
+                        MatematicasView()
                     } label: {
                         Text("Matemáticas 🧮")
                             .font(.system(size: 32, weight: .semibold))
@@ -68,7 +68,10 @@ struct ContentView: View {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     
                     if firstTime{
-                        speechToText(text: "¡Bienvenido a Intelia! Una aplicación increíble donde podrás aprender Matemáticas y Español. Puedes presionar el botón naranja que se encuentra todas las pantallas para que te explique las instrucciones!")
+                        /*
+                        speechToText(text: "¡Bienvenido a Intelia! Una aplicación increíble donde podrás aprender Matemáticas y Español. Puedes presionar el botón naranja que se encuentra en todas las pantallas para que te explique las instrucciones!")
+                         */
+                        speechToText(text: "Arroz")
                     }
                     
                     firstTime = false

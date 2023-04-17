@@ -1,8 +1,8 @@
 //
 //  LetterWrittingView.swift
-//  hackios
+//  Intelia
 //
-//  Created by Alumno on 15/04/23.
+//  Created by Francisco Mestizo on 15/04/23.
 //
 
 import SwiftUI

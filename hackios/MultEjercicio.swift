@@ -1,8 +1,8 @@
 //
 //  MultEjercicio.swift
-//  hackios
+//  Intelia
 //
-//  Created by Alumno on 16/04/23.
+//  Created by Francisco Mestizo on 16/04/23.
 //
 
 import SwiftUI
