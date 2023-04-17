@@ -17,16 +17,19 @@ struct AprendeRestarView: View {
     @State var thirdButtonClicked = false
     var body: some View {
         VStack{
-            Text("Restar ➖")
-                .font(.system(size: 70, weight: .bold))
-                .padding(.bottom)
-                .onAppear{
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2){
-                        withAnimation(.easeInOut(duration: 0.5)){
-                            firstView = true
+            ZStack{
+                AudioHelperView(instructions: "En esta pantalla aprenderás la teoría de las restas. Una resta consiste en quitar una cantidad de otra para saber la diferencia entre las dos; puedes ver un ejemplo de una resta con globos. Ahora, intenta resolver la resta que se encuentra al final de la pantalla.")
+                Text("Restar ➖")
+                    .font(.system(size: 70, weight: .bold))
+                    .padding(.bottom)
+                    .onAppear{
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2){
+                            withAnimation(.easeInOut(duration: 0.5)){
+                                firstView = true
+                            }
                         }
                     }
-                }
+            }
             if firstView {
                 Text("Realizar una operación aritmética que consiste en quitar una cantidad de otra para saber la diferencia entre las dos.")
                     .font(.system(size: 32))

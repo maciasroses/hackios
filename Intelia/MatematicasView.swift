@@ -93,7 +93,7 @@ struct MatematicasView: View {
                                 }
                                 )
                                 NavigationLink {
-                                    OperacionesView()
+                                    OperacionesView().onAppear{speechToText(text: "En esta experiencia podrás aprender de forma gráfica las operaciones básicas de la aritmética. La Suma, la resta, la multiplicación y la división")}
                                 } label: {
                                     Text("Operaciones")
                                         .foregroundColor(.black).fontWeight(.semibold)

@@ -69,10 +69,7 @@ struct ContentView: View {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     
                     if firstTime{
-                        /*
                         speechToText(text: "¡Bienvenido a Intelia! Una aplicación increíble donde podrás aprender Matemáticas y Español. Puedes presionar el botón naranja que se encuentra en todas las pantallas para que te explique las instrucciones!")
-                         */
-                        speechToText(text: "Arroz")
                     }
                     
                     firstTime = false
