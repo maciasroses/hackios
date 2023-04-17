@@ -8,20 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var firstTime: Bool = true
     var body: some View {
         NavigationStack{
             VStack{
-                HStack {
-                    Spacer()
-                    Button{
-                        //Acciones
-                    } label: {
-                        Image(systemName: "waveform.circle.fill")
-                            .foregroundColor(.orange)
-                            .font(.system(size: 72))
-                            .padding(.trailing, 24)
-                    }
-                }
+                
+                AudioHelperView(instructions: "Bienvenido a Intelia, una aplicación increíble donde podrás aprender acerca de Español y Matemáticas. En pantalla puedes ver dos botones, el de la izquierda es de Español y el de la derecha es de Matemáticas. Presiona el botón que te interese aprender. ")
+    
                 Text("Intelia")
                     .font(.system(size: 92, weight: .bold))
                     .padding(.top, 90)
@@ -71,6 +64,18 @@ struct ContentView: View {
                     }
                     Spacer()
                 }
+            }.onAppear{
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                    
+                    if firstTime{
+                        speechToText(text: "¡Bienvenido a Intelia! Una aplicación increíble donde podrás aprender Matemáticas y Español. Puedes presionar el botón naranja que se encuentra todas las pantallas para que te explique las instrucciones!")
+                    }
+                    
+                    firstTime = false
+                }
+                
+                
+               
             }
         }
     }
@@ -81,3 +86,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

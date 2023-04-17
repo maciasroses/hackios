@@ -142,11 +142,9 @@ struct LetraView: View {
             .onTapGesture{
                 
                 if !isOpen {
-                    let utterance = AVSpeechUtterance(string: pronunciacion)
-                    utterance.voice = AVSpeechSynthesisVoice(language: "es-MX")
-                    utterance.rate = 0.5
-                    utterance.volume = 0.5
-                    synthesizer.speak(utterance)
+                    
+                    speechToText(text: pronunciacion)
+      
                 }
                 
                 withAnimation {
@@ -163,19 +161,24 @@ struct AbecedarioView: View {
         
         VStack{
             
-            Text("Abecedario")
-                .bold()
-                .font(.largeTitle)
-                .padding(.top, 30)
-                .padding(.bottom, 1)
-            
-            
-            Text("Presiona sobre cada letra para escuchar la pronunciación.")
-                .font(.title2)
-                .foregroundColor(.gray)
-                .padding(.bottom, 10)
-                .italic()
-            
+            ZStack{
+                AudioHelperView(instructions: "En esta pantalla aprenderás acerca del abecedario. Puedes presionar sobre las diferentes letras para escuchar su pronunciación y ver una palabra con esa letra.")
+                
+                VStack{
+                    Text("Abecedario")
+                        .bold()
+                        .font(.largeTitle)
+                        .padding(.top, 30)
+                        .padding(.bottom, 1)
+                    
+                    
+                    Text("Presiona sobre cada letra para escuchar la pronunciación.")
+                        .font(.title2)
+                        .foregroundColor(.gray)
+                        .padding(.bottom, 10)
+                        .italic()
+                }
+            }
             ScrollView {
             HStack (alignment: .top,
                     spacing: 40){
