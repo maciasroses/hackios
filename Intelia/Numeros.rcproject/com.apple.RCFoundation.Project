@@ -1,0 +1,4402 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "F9610871-0955-494F-A5C3-51D1A281BAB3",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "00E8D192-FD5D-40A1-B041-59AD84253EF2" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "1987DBE2-1D52-49A1-B880-1A9CEA8B871F"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "4276ADC6-6BEB-49C7-A705-8B72A32E4D25"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0.97611194849014282,
+                        0.032415851950645447,
+                        -2.038874626159668,
+                        1
+                      ]
+                    }
+                  },
+                  "0E8F6602-E568-4055-B8FF-5BE9A4A87E65" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "C115BBAB-47D2-44F3-ADFA-8853B181FC56"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "EB6B4995-D312-4839-AF23-6B978AB0168F"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0.96230238676071167,
+                        1.1175870895385742e-07,
+                        -1.9146289825439453,
+                        1
+                      ]
+                    }
+                  },
+                  "3B1A97D3-4501-44CF-8D5D-1ED37F098FFA" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Casserole Dish"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "9154533D-B23B-48B7-A793-DD2F51A6F7E7"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CasseroleDish.cde85bbc-3eb1-4970-9ba1-2da1ba8e105e",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "533F3E01-1E08-4450-A4DF-9A20C09B429C"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.5000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5000004768371582,
+                        0,
+                        -1.1590583324432373,
+                        0,
+                        -1,
+                        1
+                      ]
+                    }
+                  },
+                  "3BF75BA9-BFF2-4185-8F64-197599C711ED" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "35C9EDD9-63CD-4B89-89DC-6A6695911EB3"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "24B1BF5A-D950-41C4-9C9E-E7E8BC284624"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0.65553587675094604,
+                        5.9604644775390625e-08,
+                        -2.0888195037841797,
+                        1
+                      ]
+                    }
+                  },
+                  "3C55B54C-65AF-4ACB-B94E-092416B67B49" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "1A06E5A9-8BB4-4722-B611-62706D247CF1"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "DE5B9167-C851-4360-AD85-F17A3838C1B3"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.2659530639648438,
+                        -0.48386868834495544,
+                        1.0586626529693604,
+                        0,
+                        0.73717695474624634,
+                        3.3002252578735352,
+                        -0.76578670740127563,
+                        0,
+                        -0.9008137583732605,
+                        0.94643014669418335,
+                        3.2115647792816162,
+                        0,
+                        1.336290717124939,
+                        0.055704846978187561,
+                        -1.0593286752700806,
+                        1
+                      ]
+                    }
+                  },
+                  "3DCF30BA-EF39-4170-B23F-0BA5013C2BFE" : null,
+                  "4A213441-135C-450E-8EF8-1A4EAB267C1D" : null,
+                  "4A777473-2F85-4206-916B-328FD91E184A" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Casserole Dish"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "2AD65970-55EC-4F38-8193-DA3236D17F1E"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CasseroleDish.cde85bbc-3eb1-4970-9ba1-2da1ba8e105e",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "4BB3DD3C-2EDD-4907-842C-C603A9192EB4"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.5000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5000004768371582,
+                        0,
+                        -0.77318167686462402,
+                        0,
+                        -2,
+                        1
+                      ]
+                    }
+                  },
+                  "4CAE7C7E-A12B-41C3-A73B-BD0677179CA5" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "2B7B57B0-E480-485D-890F-5DF8220E30A5"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "B635E106-7E1D-4809-87B3-EE16D7BEC46E"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.850273609161377,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.850273609161377,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.850273609161377,
+                        0,
+                        0.91059798002243042,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "5BC536FB-D143-4F49-BE46-6C2409498BD3" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "6F5E1730-A98C-4434-AC62-92F4143DC937"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "D7B558FF-C60F-4391-96AC-B0EE9F25745A"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0.66418749094009399,
+                        0.032415837049484253,
+                        -1.9284720420837402,
+                        1
+                      ]
+                    }
+                  },
+                  "7B26D420-C664-4CA1-9780-AA1349C5F4A2" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "3F50B272-B057-49D8-9096-1F562773D8CA"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "6F0728BA-3A4C-4651-9220-468C8C20150A"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        4.6388759500359811e-09,
+                        -4.143045018167868e-08,
+                        0,
+                        4.6388759500359811e-09,
+                        3.0650484561920166,
+                        0.69508755207061768,
+                        0,
+                        4.143045018167868e-08,
+                        -0.69508755207061768,
+                        3.0650484561920166,
+                        0,
+                        0.08614194393157959,
+                        0.057291388511657715,
+                        -1.950506329536438,
+                        1
+                      ]
+                    }
+                  },
+                  "7BAC1101-47E5-48F5-8469-86D3C5F6F3EE" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "C853EE13-2CA8-43C7-949D-9B615819DE42"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "35266877-AAA3-4CDF-8C9C-7EA0C2D3AC56"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0.58758556842803955,
+                        3.3527612686157227e-08,
+                        -1.9314117431640625,
+                        1
+                      ]
+                    }
+                  },
+                  "7C1B7E6C-6BB2-49E2-B0C9-C8BDAF561E44" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Casserole Dish"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "1A6B5E40-75F3-478B-A49B-B80673C28C18"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CasseroleDish.cde85bbc-3eb1-4970-9ba1-2da1ba8e105e",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "1D241696-91E8-4362-97E0-72BC46C08BD9"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        -0.79169505834579468,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
+                  "9EC0A159-8443-4F49-8952-4E0DEF123616" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "FDE8722E-8F8C-4F33-99B8-5FF1D0BB1788"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "64228677-62FA-4D82-8891-A0D59903A9D7"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0.31275168061256409,
+                        1.1175870895385742e-08,
+                        -1.07649827003479,
+                        1
+                      ]
+                    }
+                  },
+                  "22EB390B-33E7-45D2-BFF3-9E85A2DC37AA" : null,
+                  "34EB56EB-347B-4D8C-9D5A-D02EDA0BEFE3" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "7B70D18F-9A63-4ABC-978B-EC6173A74535"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "E82C8005-86A9-4E24-988A-70192F934667"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0.78204798698425293,
+                        7.4505805969238281e-09,
+                        -1.9473040103912354,
+                        1
+                      ]
+                    }
+                  },
+                  "51E3102D-6366-4463-B671-2F0887FE21FD" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "28EFFA99-61F8-4093-93FA-514FFF04E07F"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "08E899B0-A020-4578-9ADA-30A16987E631"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0.054597437381744385,
+                        3.3527612686157227e-08,
+                        -2.0852558612823486,
+                        1
+                      ]
+                    }
+                  },
+                  "74CBF9F2-0741-4C31-8E0C-DD8720C427A8" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "9734DEA0-58EF-4D36-BC1B-A3EDA526AE4F"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "D482C9FD-7827-492D-B1F5-D6F2906443EE"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -0.86195945739746094,
+                        1.5273690223693848e-07,
+                        -1.9097452163696289,
+                        1
+                      ]
+                    }
+                  },
+                  "75FC6640-A821-4C9E-89A0-8E048E909887" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Casserole Dish"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "55973CAB-9924-4380-8ED4-F610636C8FC2"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CasseroleDish.cde85bbc-3eb1-4970-9ba1-2da1ba8e105e",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "319BE87C-E637-416D-A961-6BA1BC07E85D"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        0.78295010328292847,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "93EC432E-0C10-46CE-8DE4-D5A0D28587A0" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "AFEF63BF-E4F2-40C6-B5D2-5494CEAEE43B"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "7F4CECEF-F382-4D92-A6CE-C410FB9DA883"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0.19213952124118805,
+                        7.4505805969238281e-09,
+                        -1.9138830900192261,
+                        1
+                      ]
+                    }
+                  },
+                  "96DA0014-4B18-4DBE-966B-98448C991DCA" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "5E77AF08-4C9A-4D28-92F3-889BEF40F9A7"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "27649902-3E1F-4413-A64E-4F9FF950908A"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        1.1840842962265015,
+                        0.065908752381801605,
+                        -0.92568802833557129,
+                        1
+                      ]
+                    }
+                  },
+                  "210B26A1-9534-4F6E-87BF-2B0B13606039" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "boundHeight",
+                          {
+                            "typeName" : "Double",
+                            "value" : 1.5
+                          }
+                        ],
+                        [
+                          "boundWidth",
+                          {
+                            "typeName" : "Double",
+                            "value" : 6
+                          }
+                        ],
+                        [
+                          "depth",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.22
+                          }
+                        ],
+                        [
+                          "font",
+                          {
+                            "typeName" : "String",
+                            "value" : "Helvetica"
+                          }
+                        ],
+                        [
+                          "hasBackground",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "height",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.10000000000000001
+                          }
+                        ],
+                        [
+                          "horizontalAlignment",
+                          {
+                            "typeName" : "String",
+                            "value" : "center"
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "standard"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              1,
+                              1,
+                              1,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "oneLine",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "precision",
+                          {
+                            "typeName" : "String",
+                            "value" : "normal"
+                          }
+                        ],
+                        [
+                          "text",
+                          {
+                            "typeName" : "String",
+                            "value" : "3     4     5     6"
+                          }
+                        ],
+                        [
+                          "verticalAlignment",
+                          {
+                            "typeName" : "String",
+                            "value" : "bottom"
+                          }
+                        ],
+                        [
+                          "verticalPosition",
+                          {
+                            "typeName" : "String",
+                            "value" : "middle"
+                          }
+                        ],
+                        [
+                          "wordWrap",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "back_1" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "5F299A42-6D53-4B21-AB82-7D538F9C012C"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.Text",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "DAEE8E0C-9447-4354-AEB1-10A4A20BAC68"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4,
+                        0,
+                        0,
+                        0.64551854133605957,
+                        -1,
+                        1
+                      ]
+                    }
+                  },
+                  "211A00DE-8DB9-4957-A924-722ECFA1C796" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "boundHeight",
+                          {
+                            "typeName" : "Double",
+                            "value" : 1.5
+                          }
+                        ],
+                        [
+                          "boundWidth",
+                          {
+                            "typeName" : "Double",
+                            "value" : 6
+                          }
+                        ],
+                        [
+                          "depth",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.22
+                          }
+                        ],
+                        [
+                          "font",
+                          {
+                            "typeName" : "String",
+                            "value" : "Helvetica"
+                          }
+                        ],
+                        [
+                          "hasBackground",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "height",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.10000000000000001
+                          }
+                        ],
+                        [
+                          "horizontalAlignment",
+                          {
+                            "typeName" : "String",
+                            "value" : "center"
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "standard"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              1,
+                              1,
+                              1,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "oneLine",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "precision",
+                          {
+                            "typeName" : "String",
+                            "value" : "normal"
+                          }
+                        ],
+                        [
+                          "text",
+                          {
+                            "typeName" : "String",
+                            "value" : "7     8     9"
+                          }
+                        ],
+                        [
+                          "verticalAlignment",
+                          {
+                            "typeName" : "String",
+                            "value" : "bottom"
+                          }
+                        ],
+                        [
+                          "verticalPosition",
+                          {
+                            "typeName" : "String",
+                            "value" : "middle"
+                          }
+                        ],
+                        [
+                          "wordWrap",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "back_1" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "38418C66-6D52-4B15-8FCD-7D494BACA3A9"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.Text",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "7851C851-A17C-4C0F-949C-E52172D1F74E"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4,
+                        0,
+                        0,
+                        0.64551854133605957,
+                        -2,
+                        1
+                      ]
+                    }
+                  },
+                  "275D74CD-BA7C-4803-B3FC-DD778E7D71B1" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "8DED4102-CD99-4267-879D-F1D9EFD79F72"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "F27B7E4F-14B3-4ECA-B987-02F6D5A0D10C"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        -2.3094174861907959,
+                        -4.5833051132149194e-08,
+                        -2.1317274570465088,
+                        0,
+                        -0.42474204301834106,
+                        3.0798590183258057,
+                        0.46014630794525146,
+                        0,
+                        2.0889842510223389,
+                        0.62621104717254639,
+                        -2.2631115913391113,
+                        0,
+                        -0.17240728437900543,
+                        0.030424974858760834,
+                        -1.9076576232910156,
+                        1
+                      ]
+                    }
+                  },
+                  "284C84F5-CB2D-4D5F-B2EA-F99BB0B8A12D" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "E6F625DD-B6E0-4F00-8848-0078BFCF1499"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "4C709DB4-A44D-40F4-AC0A-4ACD9D51092E"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0.85037487745285034,
+                        0.032415896654129028,
+                        -1.9028420448303223,
+                        1
+                      ]
+                    }
+                  },
+                  "380FE7D1-1B25-4915-84C7-7F3B39FB53F5" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Casserole Dish"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "430465CA-E350-4A01-A999-1D93362347AB"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CasseroleDish.cde85bbc-3eb1-4970-9ba1-2da1ba8e105e",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "DA1BD77B-39A8-41E1-AECA-57102169511C"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.5000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5000004768371582,
+                        0,
+                        -0.38028928637504578,
+                        0,
+                        -1,
+                        1
+                      ]
+                    }
+                  },
+                  "408D76CA-C7A0-4E0E-9A1A-1E45EA33E9BF" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "62884860-181C-447A-A2C3-75BEEA9CCC71"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "6AED5662-0232-4C9F-943B-4D0E137CAD31"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -0.98852753639221191,
+                        0,
+                        -0.96266108751296997,
+                        1
+                      ]
+                    }
+                  },
+                  "421CD596-6305-4DC6-B712-29EA79B5A509" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "2A4F14FC-2825-4A6E-8F66-9FFC28A3E593"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "7F9F92EA-1006-45AB-A7D1-8C9F6998CC1B"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        1.0223528146743774,
+                        0.035223927348852158,
+                        -0.91870850324630737,
+                        1
+                      ]
+                    }
+                  },
+                  "495A29C8-34C5-4493-8D07-182D6AA8B0C3" : null,
+                  "561E5DA6-E13E-4DAB-9A1E-B4BC52C63FC5" : null,
+                  "564B5342-E44A-4C4C-8789-A32CF89A70A0" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Casserole Dish"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "A717A9AD-D99F-4076-AE67-377035290600"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CasseroleDish.cde85bbc-3eb1-4970-9ba1-2da1ba8e105e",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "7553AF0B-4142-4773-ABB3-ECDC02FDBDC2"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        0.00060027837753295898,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "612F8A3F-6FFB-4593-A697-343212E9708F" : null,
+                  "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
+                  "841EB108-D031-4C32-AF6E-80378C031E85" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "A99B71D7-11A6-4001-868B-594BC37C36F5"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "9F585582-D672-4225-90AE-6638CDCB9A21"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        4.7619476318359375,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4.7619476318359375,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4.7619476318359375,
+                        0,
+                        0.0006300806999206543,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "7197F7EB-6C4A-4566-98BF-41BD61C57046" : null,
+                  "8286C161-A81D-41C8-BB92-A934B5C56AE5" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "EC1A28F6-04B8-448E-8B36-0524B0C2430A"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "3E6BEA53-14A6-4619-BD08-605520B3FC16"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        -0.21076266467571259,
+                        3.7252902984619141e-08,
+                        -1.0860110521316528,
+                        1
+                      ]
+                    }
+                  },
+                  "24865C86-99BC-4515-B7C2-42C58580D052" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "20EA1D17-013E-493C-B303-04FC63CBC949"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "8376B5B7-2C71-4E29-BE42-8B8034E2E136"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -0.75696754455566406,
+                        1.2665987014770508e-07,
+                        -2.0561418533325195,
+                        1
+                      ]
+                    }
+                  },
+                  "49302AD1-E485-414F-9204-F015AE385DF1" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "A49D1BEC-5C98-4BC2-B48E-9BEFBF050AB0"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "E1C44E79-48CB-4756-98AE-81FC20F29964"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.7755472660064697,
+                        2.2724680803776209e-08,
+                        1.4744511842727661,
+                        0,
+                        0.29378092288970947,
+                        3.0798587799072266,
+                        -0.55302137136459351,
+                        0,
+                        -1.4448871612548828,
+                        0.62621068954467773,
+                        2.7198953628540039,
+                        0,
+                        0.18631100654602051,
+                        0.030424974858760834,
+                        -2.0565009117126465,
+                        1
+                      ]
+                    }
+                  },
+                  "59347E92-DA72-436F-867C-01BC7029E9A5" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "2EFD7DFE-3CBC-4ACF-B284-40335AD9C117"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "753633CE-048C-41B3-89CE-F9CD2B5EAC8C"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -0.65498936176300049,
+                        0.035103768110275269,
+                        -2.0122733116149902,
+                        1
+                      ]
+                    }
+                  },
+                  "357308F4-CEEF-41BD-8C31-C722D8542B04" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "756FDC1F-F728-4C60-BFB5-6F63937955B2"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "16FA9A65-2218-446F-8D82-D062A5671449"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0.21143868565559387,
+                        9.3132257461547852e-09,
+                        -0.91181683540344238,
+                        1
+                      ]
+                    }
+                  },
+                  "614294DC-0288-4517-94C2-F505F7795EAA" : null,
+                  "05926372-A613-4DF3-931C-644835D863DB" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "22D61C38-EB2C-4E91-A458-77ABA126E2DC"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "76C5EB0D-684A-4D2B-9A94-2070C27E670D"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0.55977058410644531,
+                        2.2351741790771484e-08,
+                        -1.0714778900146484,
+                        1
+                      ]
+                    }
+                  },
+                  "27725176-7A23-43CD-922C-95858A02E227" : null,
+                  "A3F04A88-3CB0-4813-93B6-7213017BFF2C" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "C15CFEED-F4D6-4CAA-AEA8-E3B56FEB2C65"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "24577BF8-8109-4E0A-854E-DE545B976AA8"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        -0.29627647995948792,
+                        3.7252902984619141e-08,
+                        -0.91448956727981567,
+                        1
+                      ]
+                    }
+                  },
+                  "A62A4DD3-EB3D-495F-A3BD-CE81B723A4A4" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "64CB33B0-3136-4FFE-93A8-2DDEBF576CD2"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "D1C511A4-CEE2-4D45-88B1-B34F3258ACA2"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1.6568058729171753,
+                        -0.483868807554245,
+                        -3.0070271492004395,
+                        0,
+                        -0.61267095804214478,
+                        3.3002259731292725,
+                        -0.86861652135848999,
+                        0,
+                        2.9834504127502441,
+                        0.94643056392669678,
+                        1.4915230274200439,
+                        0,
+                        1.0049483776092529,
+                        0.055704817175865173,
+                        -1.0613095760345459,
+                        1
+                      ]
+                    }
+                  },
+                  "A0938798-C5B4-416F-809A-D8DD30A7512A" : null,
+                  "ABEBAE0C-D5D6-459C-9E31-3DFA1AA1C2D0" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "B80396FD-C6A1-418D-8A48-2357C0B8D6F0"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "95DF4566-6A66-47A1-9DD6-08C25F2F20C7"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0.44505029916763306,
+                        2.2351741790771484e-08,
+                        -0.9073026180267334,
+                        1
+                      ]
+                    }
+                  },
+                  "AF5EE353-5100-47A7-8592-E257EF3F0C38" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "62400450-27BF-4E27-8CE7-6E830853E496"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "B7C3117C-4A3B-44E8-9005-DAF7A3DB24A5"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        -0.54256850481033325,
+                        3.7252902984619141e-08,
+                        -0.92087364196777344,
+                        1
+                      ]
+                    }
+                  },
+                  "B3E9B9E8-0296-433C-A0E9-5CBE13DFC8B8" : null,
+                  "B8DECE78-460E-4819-90CC-E3BB534539C9" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "3643E3DC-16E8-45F8-B408-C7CC52D1DB8C"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "E1C4F18D-362A-4979-ACD9-6EDCA47C6455"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0.44725990295410156,
+                        0.035224009305238724,
+                        -1.0348236560821533,
+                        1
+                      ]
+                    }
+                  },
+                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
+                  "C4A78801-90BF-4F55-998E-3D530869D890" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "0FBFFD8E-77AC-440B-B266-B7704D64B2D0"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "E1E9EF33-F520-497C-BE6F-617DC4676E47"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        -0.42972204089164734,
+                        3.7252902984619141e-09,
+                        -1.0776149034500122,
+                        1
+                      ]
+                    }
+                  },
+                  "C113DD72-BE36-47BD-8624-A22F5D233C4A" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "E8E5C2BB-6F32-4054-8A24-02E7D5C1DB0C"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "A87959C7-94D4-422F-B5FB-8C0E5A58A243"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.850273609161377,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.850273609161377,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.850273609161377,
+                        0,
+                        0.6620897650718689,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "CE6C0F90-44AC-4922-A218-E601798F297E" : null,
+                  "CE1443AC-5F8C-46A0-B779-5908F73A155A" : null,
+                  "D2EE5448-BA31-4043-9A47-B8B632E68384" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "407FFB7A-3C3E-4204-B25D-0A26CF28DB74"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "B09ED5B1-026E-464F-A2EC-CFDEC7C33471"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        1.352660059928894,
+                        0.035223912447690964,
+                        -0.91619652509689331,
+                        1
+                      ]
+                    }
+                  },
+                  "D5DE2B6B-22FE-427D-90CF-10D711A6B405" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "0FFAA408-BE38-47E6-AB06-F5C9E8F14572"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "90A5D745-6498-40C9-BBE3-D8E6C3E68FCF"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -1.1595650911331177,
+                        0,
+                        -1.0611975193023682,
+                        1
+                      ]
+                    }
+                  },
+                  "D50E2047-E260-4700-889E-71E116F440CA" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "C333BF26-E492-4A67-88F9-F199CE5BC317"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "7160C810-152D-44FC-9BF2-D9DC121147E5"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -0.94513142108917236,
+                        1.5273690223693848e-07,
+                        -2.0723776817321777,
+                        1
+                      ]
+                    }
+                  },
+                  "D414DC80-B471-4970-A78A-09305434A881" : null,
+                  "D432A3B7-AC79-454F-92E2-D3AABDA08EE0" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "274080C8-6DD0-421E-AE36-D47E409242F6"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "39115602-BD53-4A22-B3FB-26C74664CB8E"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -1.3236837387084961,
+                        0,
+                        -0.96464997529983521,
+                        1
+                      ]
+                    }
+                  },
+                  "DB0D27D6-10F2-49CC-B181-6C5D8DBF6589" : null,
+                  "DE3AADC9-66C5-4C3A-8636-864835E1C8AC" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "boundHeight",
+                          {
+                            "typeName" : "Double",
+                            "value" : 1.5
+                          }
+                        ],
+                        [
+                          "boundWidth",
+                          {
+                            "typeName" : "Double",
+                            "value" : 6
+                          }
+                        ],
+                        [
+                          "depth",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.22
+                          }
+                        ],
+                        [
+                          "font",
+                          {
+                            "typeName" : "String",
+                            "value" : "Helvetica"
+                          }
+                        ],
+                        [
+                          "hasBackground",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "height",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.10000000000000001
+                          }
+                        ],
+                        [
+                          "horizontalAlignment",
+                          {
+                            "typeName" : "String",
+                            "value" : "center"
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "standard"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              1,
+                              1,
+                              1,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "oneLine",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "precision",
+                          {
+                            "typeName" : "String",
+                            "value" : "normal"
+                          }
+                        ],
+                        [
+                          "text",
+                          {
+                            "typeName" : "String",
+                            "value" : "0     1     2"
+                          }
+                        ],
+                        [
+                          "verticalAlignment",
+                          {
+                            "typeName" : "String",
+                            "value" : "bottom"
+                          }
+                        ],
+                        [
+                          "verticalPosition",
+                          {
+                            "typeName" : "String",
+                            "value" : "middle"
+                          }
+                        ],
+                        [
+                          "wordWrap",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "back_1" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "A9F63B67-936F-4276-A027-A4C93DDFD956"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.Text",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "EAF821E5-8899-4D76-9957-F728FDA4236F"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4,
+                        0,
+                        0,
+                        0.64551854133605957,
+                        0.019999999552965164,
+                        1
+                      ]
+                    }
+                  },
+                  "DFCA3C9B-5E90-4227-B3CC-C92C08945D73" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "8C1E4DC4-451D-4558-B1BF-56A4C2E73E85"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "9150C4C9-DAB8-4630-8329-BEE0F8CC8863"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -0.045854240655899048,
+                        3.3527612686157227e-08,
+                        -1.9048559665679932,
+                        1
+                      ]
+                    }
+                  },
+                  "E3A3C41F-A8CD-4758-AF78-9A6B4B947636" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "AFAE8890-07CA-4955-9381-D9B1D2FF63CF"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "594BE57E-E2C8-442D-8946-60241DB97F4C"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -0.050794228911399841,
+                        0.030405677855014801,
+                        -2.0192081928253174,
+                        1
+                      ]
+                    }
+                  },
+                  "E9FC62D6-2D27-4D27-B0B6-521451688DEA" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "1DB942A4-E268-460E-805E-F5F541068EBE"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "90DB9356-9269-4388-A523-0459E76C2875"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -0.16767169535160065,
+                        3.3527612686157227e-08,
+                        -2.0822885036468506,
+                        1
+                      ]
+                    }
+                  },
+                  "E13B59C0-7709-4A97-857E-2A67CBDF98EE" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "6FE0B641-8634-4CF5-BDBB-050E53478EB2"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "E101A979-CF69-4EA5-882F-F7C6A714094E"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -0.64137613773345947,
+                        1.5273690223693848e-07,
+                        -1.9046915769577026,
+                        1
+                      ]
+                    }
+                  },
+                  "E72A64CB-7401-4B0D-864D-6859E652051D" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Casserole Dish"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "282DC573-718A-4C4A-AAE5-BBD77AD5788E"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CasseroleDish.cde85bbc-3eb1-4970-9ba1-2da1ba8e105e",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "3401FE4E-068B-4613-ABD8-2ACC8ED8CCEC"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.5000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5000004768371582,
+                        0,
+                        0.37729501724243164,
+                        0,
+                        -1,
+                        1
+                      ]
+                    }
+                  },
+                  "E5733041-1E4E-441B-9C15-A1B9E229F613" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "1DAB3051-48FB-46D3-8630-514235A8EF74"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "E5632A4C-6916-48FA-815D-93FFB9E5C765"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0.89166498184204102,
+                        5.9604644775390625e-08,
+                        -2.0933985710144043,
+                        1
+                      ]
+                    }
+                  },
+                  "EC37865C-64BB-475A-88E1-1C8B80039468" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Casserole Dish"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "98F2C622-FEFE-456D-BF0B-C5A4CD2707CE"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CasseroleDish.cde85bbc-3eb1-4970-9ba1-2da1ba8e105e",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "DD05B088-B49E-4AEC-B414-5A44730DC0ED"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.5000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5000004768371582,
+                        0,
+                        0,
+                        0,
+                        -2,
+                        1
+                      ]
+                    }
+                  },
+                  "F9F92E64-64BE-4162-8C1D-CD282530A6EE" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "D3F7B3A9-B00C-4EEF-BC88-05061D7E1BF9"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "26A1463E-ED18-49CA-A545-3FDEA2C57CDC"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.4671821594238281,
+                        0,
+                        1.1794031858444214,
+                        0.035223927348852158,
+                        -1.0542665719985962,
+                        1
+                      ]
+                    }
+                  },
+                  "F554527A-52A4-43D0-9D3B-72C0B65E7745" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Casserole Dish"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "DB74E55D-B113-4DD6-BF33-161C6F01477D"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CasseroleDish.cde85bbc-3eb1-4970-9ba1-2da1ba8e105e",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "65A8E82D-2DA6-4EB3-8C6B-96F796D50C2F"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.5000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5000004768371582,
+                        0,
+                        1.1736118793487549,
+                        0,
+                        -1,
+                        1
+                      ]
+                    }
+                  },
+                  "F6785032-11E3-48D0-A513-BAFE2FB2B9D6" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "8C3EBD82-4673-49F4-BE1B-FD9DD2AC92B0"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "16F1291D-67B5-4D34-9C18-E2AE6D92FF2D"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -0.57711941003799438,
+                        1.5273690223693848e-07,
+                        -2.08782958984375,
+                        1
+                      ]
+                    }
+                  },
+                  "FA8BBC80-EA08-4EA9-9C13-58A7452F33C8" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Casserole Dish"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "A5B6F234-38FF-41BF-A065-0B1563533242"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CasseroleDish.cde85bbc-3eb1-4970-9ba1-2da1ba8e105e",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "B73F19AE-D16E-4379-B2F5-C620F7826B94"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.5000004768371582,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.5000004768371582,
+                        0,
+                        0.77391374111175537,
+                        2.384185791015625e-07,
+                        -2,
+                        1
+                      ]
+                    }
+                  },
+                  "FE93A41E-ABE2-48DB-BAA0-38D215961D14" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "140C18B6-F36B-4946-910B-39857D1654BA"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "AA73E014-11A3-4DB7-979A-F37CBAC72C89"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        -0.85116034746170044,
+                        0.035103768110275269,
+                        -2.0142621994018555,
+                        1
+                      ]
+                    }
+                  },
+                  "FFCB603E-6803-485E-9AED-D52C088C28FA" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Cookie"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "1768A3EE-E65B-499E-8B6C-31A11EBF137A"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Cookie.ba5793fd-c788-450b-ad50-84aee046ec26",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "C8F45EBF-6146-4E95-9A6E-6B1AB90F397E"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0,
+                        0,
+                        0,
+                        3.1428759098052979,
+                        0,
+                        0.77003186941146851,
+                        0.032415956258773804,
+                        -2.1017851829528809,
+                        1
+                      ]
+                    }
+                  }
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Box",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.91017794609069824,
+                  -2.3758882861102393e-08,
+                  -0.4142172634601593,
+                  0,
+                  -0.36005482077598572,
+                  0.49438956379890442,
+                  -0.79116344451904297,
+                  0,
+                  0.20478516817092896,
+                  0.86924010515213013,
+                  0.44998306035995483,
+                  0,
+                  0.42232301831245422,
+                  1.095003604888916,
+                  -1.591607928276062,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

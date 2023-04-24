@@ -1,0 +1,27 @@
+[
+  {
+    "libraryIdentifier" : "82839ad1f04c4f0c3062f1604fc09bb1",
+    "format" : "image",
+    "displayName" : "circulo.png"
+  },
+  {
+    "libraryIdentifier" : "11220e6e66366954028aa32733eac033",
+    "format" : "image",
+    "displayName" : "triangulo.png"
+  },
+  {
+    "libraryIdentifier" : "d28bb63eeb55a2f968dc9cb2027ee2b9",
+    "format" : "image",
+    "displayName" : "cuadrado.png"
+  },
+  {
+    "libraryIdentifier" : "facde9cabcd8b3fbe5c59ab221ef3028",
+    "format" : "image",
+    "displayName" : "hexa.png"
+  },
+  {
+    "libraryIdentifier" : "5f95f1696d42b915ec387fc766c35368",
+    "format" : "image",
+    "displayName" : "penta.png"
+  }
+]
