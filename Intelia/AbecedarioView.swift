@@ -222,58 +222,13 @@ struct AbecedarioView: View {
                     }
             }
                 
-                /*
+   
+            }
+            }
+        }
+        
+        
 
-                VStack{
-                    ForEach(abecedario3, id: \.self){ letra in
-                        
-                        LetraView(letter: letra)
-                        
-                    }
-                }
-                
-                VStack{
-                    ForEach(abecedario4, id: \.self){ letra in
-                        
-                        LetraView(letter: letra)
-                        
-                    }
-                }
-                
-                VStack{
-                    ForEach(abecedario5, id: \.self){ letra in
-                        
-                        LetraView(letter: letra)
-                        
-                    }
-                }
-                 */
-            }
-            }
-        }
-        
-        
-        /*
-        VStack(spacing: 25){
-            HStack (spacing: 20){
-                ForEach(abecedario, id: \.self) { letra in
-                    LetraView(letter: letra)
-                }
-            }
-            
-            HStack(spacing: 20){
-                ForEach(abecedario2, id: \.self) { letra in
-                    LetraView(letter: letra)
-                }
-            }
-            
-            HStack(spacing: 20){
-                ForEach(abecedario3, id: \.self) { letra in
-                    LetraView(letter: letra)
-                }
-            }
-        }
-         */
     }
 }
 
